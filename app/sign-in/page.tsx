@@ -27,8 +27,6 @@ export default function SignInPage() {
   const { signIn, isLoading } = useAuth();
   const router = useRouter();
 
-  const BASE_URL = "http://localhost:3000";
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
@@ -38,18 +36,8 @@ export default function SignInPage() {
       return;
     }
 
-    const success = await fetch(`/api/auth/signin`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        email,
-        password,
-      }),
-    });
-
-    if (success.status === 201) {
+    const success = await signIn(email, password);
+    if (success) {
       router.push("/");
     } else {
       setError(

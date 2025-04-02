@@ -1,4 +1,5 @@
 import User from "@/models/user";
+import { NextResponse } from "next/server";
 
 export async function GET(request: Request) {
   // For example, fetch data from your DB here
@@ -21,13 +22,19 @@ export async function POST(request: Request) {
 
   // e.g. Insert new user into your DB
   if (!name || !email || !password) {
-    return new Response("Missing required fields", { status: 400 });
+    return NextResponse.json(
+      { message: "Missing required fields" },
+      { status: 400 }
+    );
   }
 
   const oldUser = await User.findOne({ email });
 
   if (oldUser) {
-    return new Response("User already exists", { status: 401 });
+    return NextResponse.json(
+      { message: "User already exists" },
+      { status: 401 }
+    );
   }
 
   const newUser = await User.create({
@@ -36,8 +43,11 @@ export async function POST(request: Request) {
     password,
   });
 
-  return new Response(JSON.stringify(newUser), {
-    status: 201,
-    headers: { "Content-Type": "application/json" },
-  });
+  return NextResponse.json(
+    { user: newUser },
+    {
+      status: 201,
+      headers: { "Content-Type": "application/json" },
+    }
+  );
 }

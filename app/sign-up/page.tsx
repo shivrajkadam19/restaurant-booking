@@ -20,8 +20,6 @@ import {
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { Loader2 } from "lucide-react";
 
-const BASE_URL = "http://localhost:3000";
-
 export default function SignUpPage() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -44,20 +42,9 @@ export default function SignUpPage() {
       setError("Passwords do not match");
       return;
     }
-    console.log("Indise signup page");
-    const success = await fetch(`/api/auth/signup`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        name,
-        email,
-        password,
-      }),
-    });
 
-    if (success.status === 201) {
+    const success = await signUp(name, email, password);
+    if (success) {
       router.push("/");
     } else {
       setError("Failed to create account. Please try again.");

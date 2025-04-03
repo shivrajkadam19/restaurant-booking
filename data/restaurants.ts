@@ -41,9 +41,9 @@ export const restaurants: Restaurant[] = [
     openingHours: "Mon-Sun: 12:00 PM - 3:30 PM, 7:00 PM - 11:30 PM",
     featured: true,
     images: [
-      "/placeholder.svg?height=400&width=600&text=Trishna+Restaurant",
-      "/placeholder.svg?height=400&width=600&text=Butter+Garlic+Crab",
-      "/placeholder.svg?height=400&width=600&text=Seafood+Platter",
+      "/img1.jpg?height=400&width=600&text=Trishna+Restaurant",
+      "/img4.jpg?height=400&width=600&text=Butter+Garlic+Crab",
+      "/img4.jpg?height=400&width=600&text=Seafood+Platter",
     ],
     menu: [
       {
@@ -52,7 +52,7 @@ export const restaurants: Restaurant[] = [
         description: "Crab cooked in butter garlic sauce",
         price: 1200,
         category: "Seafood",
-        image: "/placeholder.svg?height=128&width=128&text=Butter+Garlic+Crab",
+        image: "/img1.jpg?height=128&width=128&text=Butter+Garlic+Crab",
         popular: true,
       },
       {
@@ -61,7 +61,7 @@ export const restaurants: Restaurant[] = [
         description: "Whole pomfret marinated and cooked in tandoor",
         price: 850,
         category: "Seafood",
-        image: "/placeholder.svg?height=128&width=128&text=Tandoori+Pomfret",
+        image: "/img1.jpg?height=128&width=128&text=Tandoori+Pomfret",
       },
       {
         id: "m1-3",
@@ -69,7 +69,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy fried prawns in Koliwada style",
         price: 650,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Koliwada+Prawns",
+        image: "/img1.jpg?height=128&width=128&text=Koliwada+Prawns",
         popular: true,
       },
       {
@@ -78,7 +78,7 @@ export const restaurants: Restaurant[] = [
         description: "Crispy fried Bombay duck fish",
         price: 450,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Bombil+Fry",
+        image: "/img1.jpg?height=128&width=128&text=Bombil+Fry",
       },
       {
         id: "m1-5",
@@ -86,7 +86,7 @@ export const restaurants: Restaurant[] = [
         description: "Thin rice pancakes",
         price: 180,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Neer+Dosa",
+        image: "/img1.jpg?height=128&width=128&text=Neer+Dosa",
       },
       {
         id: "m1-6",
@@ -94,7 +94,7 @@ export const restaurants: Restaurant[] = [
         description: "King fish in spicy coconut gravy",
         price: 650,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Surmai+Curry",
+        image: "/img1.jpg?height=128&width=128&text=Surmai+Curry",
       },
       {
         id: "m1-7",
@@ -102,7 +102,7 @@ export const restaurants: Restaurant[] = [
         description: "Pink kokum and coconut milk digestive",
         price: 120,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Sol+Kadhi",
+        image: "/img1.jpg?height=128&width=128&text=Sol+Kadhi",
       },
       {
         id: "m1-8",
@@ -110,7 +110,7 @@ export const restaurants: Restaurant[] = [
         description: "Clams cooked in spicy masala",
         price: 550,
         category: "Seafood",
-        image: "/placeholder.svg?height=128&width=128&text=Clam+Masala",
+        image: "/img1.jpg?height=128&width=128&text=Clam+Masala",
       },
       {
         id: "m1-9",
@@ -118,7 +118,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice cooked with prawns and spices",
         price: 480,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Prawn+Pulao",
+        image: "/img1.jpg?height=128&width=128&text=Prawn+Pulao",
       },
       {
         id: "m1-10",
@@ -126,7 +126,7 @@ export const restaurants: Restaurant[] = [
         description: "Marinated fish pieces cooked in tandoor",
         price: 520,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Fish+Tikka",
+        image: "/img1.jpg?height=128&width=128&text=Fish+Tikka",
       },
       {
         id: "m1-11",
@@ -134,7 +134,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy soup made with crab meat",
         price: 320,
         category: "Soups",
-        image: "/placeholder.svg?height=128&width=128&text=Crab+Soup",
+        image: "/img1.jpg?height=128&width=128&text=Crab+Soup",
       },
       {
         id: "m1-12",
@@ -142,7 +142,7 @@ export const restaurants: Restaurant[] = [
         description: "Lobster cooked with creamy sauce and cheese",
         price: 1800,
         category: "Seafood",
-        image: "/placeholder.svg?height=128&width=128&text=Lobster+Thermidor",
+        image: "/img1.jpg?height=128&width=128&text=Lobster+Thermidor",
       },
       {
         id: "m1-13",
@@ -150,7 +150,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy Goan pickle-like prawn preparation",
         price: 580,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Prawn+Balchao",
+        image: "/img1.jpg?height=128&width=128&text=Prawn+Balchao",
       },
       {
         id: "m1-14",
@@ -158,7 +158,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional fish curry served with steamed rice",
         price: 420,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Fish+Curry+Rice",
+        image: "/img1.jpg?height=128&width=128&text=Fish+Curry+Rice",
       },
       {
         id: "m1-15",
@@ -166,7 +166,7 @@ export const restaurants: Restaurant[] = [
         description: "Squid tossed in butter, pepper, and garlic",
         price: 580,
         category: "Seafood",
-        image: "/placeholder.svg?height=128&width=128&text=Squid+Butter+Pepper+Garlic",
+        image: "/img1.jpg?height=128&width=128&text=Squid+Butter+Pepper+Garlic",
       },
       {
         id: "m1-16",
@@ -174,7 +174,7 @@ export const restaurants: Restaurant[] = [
         description: "Indian salmon marinated and fried",
         price: 620,
         category: "Seafood",
-        image: "/placeholder.svg?height=128&width=128&text=Rawas+Fry",
+        image: "/img1.jpg?height=128&width=128&text=Rawas+Fry",
       },
       {
         id: "m1-17",
@@ -182,7 +182,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice cooked with prawns and aromatic spices",
         price: 550,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Prawn+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Prawn+Biryani",
       },
     ],
   },
@@ -200,9 +200,9 @@ export const restaurants: Restaurant[] = [
     openingHours: "Mon-Sat: 11:30 AM - 4:00 PM",
     featured: true,
     images: [
-      "/placeholder.svg?height=400&width=600&text=Britannia+Restaurant",
-      "/placeholder.svg?height=400&width=600&text=Berry+Pulao",
-      "/placeholder.svg?height=400&width=600&text=Parsi+Cuisine",
+      "/img2.jpg?height=400&width=600&text=Britannia+Restaurant",
+      "/img4.jpg?height=400&width=600&text=Berry+Pulao",
+      "/img4.jpg?height=400&width=600&text=Parsi+Cuisine",
     ],
     menu: [
       {
@@ -211,7 +211,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with meat, nuts, and Iranian berries",
         price: 550,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Berry+Pulao",
+        image: "/img1.jpg?height=128&width=128&text=Berry+Pulao",
         popular: true,
       },
       {
@@ -220,7 +220,7 @@ export const restaurants: Restaurant[] = [
         description: "Mutton gravy with potato straws",
         price: 450,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Sali+Boti",
+        image: "/img1.jpg?height=128&width=128&text=Sali+Boti",
       },
       {
         id: "m2-3",
@@ -228,7 +228,7 @@ export const restaurants: Restaurant[] = [
         description: "Lentil and vegetable curry with meat",
         price: 420,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Dhansak",
+        image: "/img1.jpg?height=128&width=128&text=Dhansak",
         popular: true,
       },
       {
@@ -237,7 +237,7 @@ export const restaurants: Restaurant[] = [
         description: "Fish wrapped in banana leaf with green chutney",
         price: 480,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Patra+ni+Macchi",
+        image: "/img1.jpg?height=128&width=128&text=Patra+ni+Macchi",
       },
       {
         id: "m2-5",
@@ -245,7 +245,7 @@ export const restaurants: Restaurant[] = [
         description: "Classic Parsi dessert",
         price: 180,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Caramel+Custard",
+        image: "/img1.jpg?height=128&width=128&text=Caramel+Custard",
       },
       {
         id: "m2-6",
@@ -253,7 +253,7 @@ export const restaurants: Restaurant[] = [
         description: "Classic refreshing drink",
         price: 120,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Raspberry+Soda",
+        image: "/img1.jpg?height=128&width=128&text=Raspberry+Soda",
       },
       {
         id: "m2-7",
@@ -261,7 +261,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with mutton, nuts, and Iranian berries",
         price: 580,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Mutton+Berry+Pulao",
+        image: "/img1.jpg?height=128&width=128&text=Mutton+Berry+Pulao",
       },
       {
         id: "m2-8",
@@ -269,7 +269,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with chicken, nuts, and Iranian berries",
         price: 520,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Berry+Pulao",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Berry+Pulao",
       },
       {
         id: "m2-9",
@@ -277,7 +277,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with vegetables, nuts, and Iranian berries",
         price: 450,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Vegetable+Berry+Pulao",
+        image: "/img1.jpg?height=128&width=128&text=Vegetable+Berry+Pulao",
       },
       {
         id: "m2-10",
@@ -285,7 +285,7 @@ export const restaurants: Restaurant[] = [
         description: "Lentil and vegetable curry with chicken",
         price: 380,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Dhansak",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Dhansak",
       },
       {
         id: "m2-11",
@@ -293,7 +293,7 @@ export const restaurants: Restaurant[] = [
         description: "Lentil and vegetable curry with mutton",
         price: 420,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Mutton+Dhansak",
+        image: "/img1.jpg?height=128&width=128&text=Mutton+Dhansak",
       },
       {
         id: "m2-12",
@@ -301,7 +301,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced chicken patties, crumb-fried",
         price: 280,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Parsi+Chicken+Cutlets",
+        image: "/img1.jpg?height=128&width=128&text=Parsi+Chicken+Cutlets",
       },
       {
         id: "m2-13",
@@ -309,7 +309,7 @@ export const restaurants: Restaurant[] = [
         description: "Parsi-style fried chicken",
         price: 320,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Farcha",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Farcha",
       },
       {
         id: "m2-14",
@@ -317,7 +317,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional Parsi wedding custard",
         price: 200,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Lagan+nu+Custard",
+        image: "/img1.jpg?height=128&width=128&text=Lagan+nu+Custard",
       },
       {
         id: "m2-15",
@@ -325,7 +325,7 @@ export const restaurants: Restaurant[] = [
         description: "Chicken gravy topped with potato straws",
         price: 380,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Sali+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Sali+Chicken",
       },
       {
         id: "m2-16",
@@ -333,7 +333,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional Parsi tea",
         price: 80,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Parsi+Chai",
+        image: "/img1.jpg?height=128&width=128&text=Parsi+Chai",
       },
       {
         id: "m2-17",
@@ -341,7 +341,7 @@ export const restaurants: Restaurant[] = [
         description: "Minced mutton served with bread rolls",
         price: 320,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Mutton+Kheema+Pav",
+        image: "/img1.jpg?height=128&width=128&text=Mutton+Kheema+Pav",
       },
     ],
   },
@@ -359,9 +359,9 @@ export const restaurants: Restaurant[] = [
     openingHours: "Mon-Sun: 7:00 AM - 11:00 PM",
     featured: true,
     images: [
-      "/placeholder.svg?height=400&width=600&text=Aaswad+Restaurant",
-      "/placeholder.svg?height=400&width=600&text=Maharashtrian+Thali",
-      "/placeholder.svg?height=400&width=600&text=Vada+Pav",
+      "/img1.jpg?height=400&width=600&text=Aaswad+Restaurant",
+      "/img4.jpg?height=400&width=600&text=Maharashtrian+Thali",
+      "/img4.jpg?height=400&width=600&text=Vada+Pav",
     ],
     menu: [
       {
@@ -370,7 +370,7 @@ export const restaurants: Restaurant[] = [
         description: "Complete meal with bhakri, pitla, bharli vangi, and more",
         price: 350,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Maharashtrian+Thali",
+        image: "/img1.jpg?height=128&width=128&text=Maharashtrian+Thali",
         popular: true,
       },
       {
@@ -379,7 +379,7 @@ export const restaurants: Restaurant[] = [
         description: "Mumbai's favorite street food - spicy potato fritter in a bun",
         price: 40,
         category: "Snacks",
-        image: "/placeholder.svg?height=128&width=128&text=Vada+Pav",
+        image: "/img1.jpg?height=128&width=128&text=Vada+Pav",
         popular: true,
       },
       {
@@ -388,7 +388,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweet yogurt-based drink with saffron and cardamom",
         price: 80,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Piyush",
+        image: "/img1.jpg?height=128&width=128&text=Piyush",
       },
       {
         id: "m3-4",
@@ -396,7 +396,7 @@ export const restaurants: Restaurant[] = [
         description: "Multi-grain savory pancake served with white butter",
         price: 120,
         category: "Breakfast",
-        image: "/placeholder.svg?height=128&width=128&text=Thalipeeth",
+        image: "/img1.jpg?height=128&width=128&text=Thalipeeth",
       },
       {
         id: "m3-5",
@@ -404,7 +404,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweet flatbread stuffed with jaggery and lentil mixture",
         price: 90,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Puran+Poli",
+        image: "/img1.jpg?height=128&width=128&text=Puran+Poli",
       },
       {
         id: "m3-6",
@@ -412,7 +412,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy sprouted moth beans curry with farsan, served with pav",
         price: 130,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Misal+Pav",
+        image: "/img1.jpg?height=128&width=128&text=Misal+Pav",
       },
       {
         id: "m3-7",
@@ -420,7 +420,7 @@ export const restaurants: Restaurant[] = [
         description: "Sago pearls cooked with peanuts and potatoes",
         price: 110,
         category: "Breakfast",
-        image: "/placeholder.svg?height=128&width=128&text=Sabudana+Khichdi",
+        image: "/img1.jpg?height=128&width=128&text=Sabudana+Khichdi",
       },
       {
         id: "m3-8",
@@ -428,7 +428,7 @@ export const restaurants: Restaurant[] = [
         description: "Steamed and fried coriander cakes with spices",
         price: 100,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Kothimbir+Vadi",
+        image: "/img1.jpg?height=128&width=128&text=Kothimbir+Vadi",
       },
       {
         id: "m3-9",
@@ -436,7 +436,7 @@ export const restaurants: Restaurant[] = [
         description: "Mashed vegetable curry served with buttered bread rolls",
         price: 120,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Pav+Bhaji",
+        image: "/img1.jpg?height=128&width=128&text=Pav+Bhaji",
       },
       {
         id: "m3-10",
@@ -444,7 +444,7 @@ export const restaurants: Restaurant[] = [
         description: "Gram flour preparation served with millet flatbread",
         price: 140,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Zunka+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Zunka+Bhakri",
       },
       {
         id: "m3-11",
@@ -452,7 +452,7 @@ export const restaurants: Restaurant[] = [
         description: "Sprouted moth beans curry",
         price: 110,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Matki+Usal",
+        image: "/img1.jpg?height=128&width=128&text=Matki+Usal",
       },
       {
         id: "m3-12",
@@ -460,7 +460,7 @@ export const restaurants: Restaurant[] = [
         description: "Stuffed eggplant in peanut and coconut gravy",
         price: 150,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Bharli+Vangi",
+        image: "/img1.jpg?height=128&width=128&text=Bharli+Vangi",
       },
       {
         id: "m3-13",
@@ -468,7 +468,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced rice with vegetables",
         price: 130,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Masale+Bhat",
+        image: "/img1.jpg?height=128&width=128&text=Masale+Bhat",
       },
       {
         id: "m3-14",
@@ -476,7 +476,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional lentil curry with kokum",
         price: 100,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Amti",
+        image: "/img1.jpg?height=128&width=128&text=Amti",
       },
       {
         id: "m3-15",
@@ -484,7 +484,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweetened strained yogurt with saffron and cardamom",
         price: 90,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Shrikhand",
+        image: "/img1.jpg?height=128&width=128&text=Shrikhand",
       },
       {
         id: "m3-16",
@@ -492,7 +492,7 @@ export const restaurants: Restaurant[] = [
         description: "Pink kokum and coconut milk digestive",
         price: 70,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Sol+Kadhi",
+        image: "/img1.jpg?height=128&width=128&text=Sol+Kadhi",
       },
       {
         id: "m3-17",
@@ -500,7 +500,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy potato fritter",
         price: 30,
         category: "Snacks",
-        image: "/placeholder.svg?height=128&width=128&text=Batata+Vada",
+        image: "/img1.jpg?height=128&width=128&text=Batata+Vada",
       },
     ],
   },
@@ -520,9 +520,9 @@ export const restaurants: Restaurant[] = [
     openingHours: "Mon-Sun: 8:00 AM - 11:00 PM",
     featured: true,
     images: [
-      "/placeholder.svg?height=400&width=600&text=Haldiram's+Restaurant",
-      "/placeholder.svg?height=400&width=600&text=Nagpur+Special+Sweets",
-      "/placeholder.svg?height=400&width=600&text=Chaat+Counter",
+      "/img3.jpg?height=400&width=600&text=Haldiram's+Restaurant",
+      "/img4.jpg?height=400&width=600&text=Nagpur+Special+Sweets",
+      "/img4.jpg?height=400&width=600&text=Chaat+Counter",
     ],
     menu: [
       {
@@ -531,7 +531,7 @@ export const restaurants: Restaurant[] = [
         description: "Crispy pastry filled with spiced potatoes and peas",
         price: 50,
         category: "Snacks",
-        image: "/placeholder.svg?height=128&width=128&text=Nagpur+Special+Samosa",
+        image: "/img1.jpg?height=128&width=128&text=Nagpur+Special+Samosa",
         popular: true,
       },
       {
@@ -540,7 +540,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy chickpea curry served with fried bread",
         price: 150,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Chole+Bhature",
+        image: "/img1.jpg?height=128&width=128&text=Chole+Bhature",
         popular: true,
       },
       {
@@ -549,7 +549,7 @@ export const restaurants: Restaurant[] = [
         description: "Large crispy puri filled with potatoes, yogurt, and chutneys",
         price: 120,
         category: "Chaat",
-        image: "/placeholder.svg?height=128&width=128&text=Raj+Kachori",
+        image: "/img1.jpg?height=128&width=128&text=Raj+Kachori",
       },
       {
         id: "n1-4",
@@ -557,7 +557,7 @@ export const restaurants: Restaurant[] = [
         description: "Hollow crisp fried balls filled with spicy water and potatoes",
         price: 80,
         category: "Chaat",
-        image: "/placeholder.svg?height=128&width=128&text=Pani+Puri",
+        image: "/img1.jpg?height=128&width=128&text=Pani+Puri",
       },
       {
         id: "n1-5",
@@ -565,7 +565,7 @@ export const restaurants: Restaurant[] = [
         description: "Flaky sweet made with gram flour and sugar",
         price: 350,
         category: "Sweets",
-        image: "/placeholder.svg?height=128&width=128&text=Soan+Papdi",
+        image: "/img1.jpg?height=128&width=128&text=Soan+Papdi",
       },
       {
         id: "n1-6",
@@ -573,7 +573,7 @@ export const restaurants: Restaurant[] = [
         description: "Diamond-shaped cashew fudge",
         price: 700,
         category: "Sweets",
-        image: "/placeholder.svg?height=128&width=128&text=Kaju+Katli",
+        image: "/img1.jpg?height=128&width=128&text=Kaju+Katli",
       },
       {
         id: "n1-7",
@@ -581,7 +581,7 @@ export const restaurants: Restaurant[] = [
         description: "Lentil dumplings topped with yogurt and chutneys",
         price: 100,
         category: "Chaat",
-        image: "/placeholder.svg?height=128&width=128&text=Dahi+Bhalla",
+        image: "/img1.jpg?height=128&width=128&text=Dahi+Bhalla",
       },
       {
         id: "n1-8",
@@ -589,7 +589,7 @@ export const restaurants: Restaurant[] = [
         description: "Complete meal with variety of dishes",
         price: 250,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Thali",
+        image: "/img1.jpg?height=128&width=128&text=Thali",
       },
       {
         id: "n1-9",
@@ -597,7 +597,7 @@ export const restaurants: Restaurant[] = [
         description: "Deep-fried milk solids soaked in sugar syrup",
         price: 60,
         category: "Sweets",
-        image: "/placeholder.svg?height=128&width=128&text=Gulab+Jamun",
+        image: "/img1.jpg?height=128&width=128&text=Gulab+Jamun",
       },
       {
         id: "n1-10",
@@ -605,7 +605,7 @@ export const restaurants: Restaurant[] = [
         description: "Soft cheese balls soaked in sugar syrup",
         price: 60,
         category: "Sweets",
-        image: "/placeholder.svg?height=128&width=128&text=Rasgulla",
+        image: "/img1.jpg?height=128&width=128&text=Rasgulla",
       },
       {
         id: "n1-11",
@@ -613,7 +613,7 @@ export const restaurants: Restaurant[] = [
         description: "Crispy rice pancake with spiced potato filling",
         price: 130,
         category: "South Indian",
-        image: "/placeholder.svg?height=128&width=128&text=Masala+Dosa",
+        image: "/img1.jpg?height=128&width=128&text=Masala+Dosa",
       },
       {
         id: "n1-12",
@@ -621,7 +621,7 @@ export const restaurants: Restaurant[] = [
         description: "Puffed rice mixed with vegetables and tangy chutneys",
         price: 90,
         category: "Chaat",
-        image: "/placeholder.svg?height=128&width=128&text=Bhel+Puri",
+        image: "/img1.jpg?height=128&width=128&text=Bhel+Puri",
       },
       {
         id: "n1-13",
@@ -629,7 +629,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced potato patties served with chutneys",
         price: 80,
         category: "Chaat",
-        image: "/placeholder.svg?height=128&width=128&text=Aloo+Tikki",
+        image: "/img1.jpg?height=128&width=128&text=Aloo+Tikki",
       },
       {
         id: "n1-14",
@@ -637,7 +637,7 @@ export const restaurants: Restaurant[] = [
         description: "Soft cheese patties soaked in sweetened, thickened milk",
         price: 70,
         category: "Sweets",
-        image: "/placeholder.svg?height=128&width=128&text=Rasmalai",
+        image: "/img1.jpg?height=128&width=128&text=Rasmalai",
       },
       {
         id: "n1-15",
@@ -645,7 +645,7 @@ export const restaurants: Restaurant[] = [
         description: "Mashed vegetable curry served with buttered bread rolls",
         price: 120,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Pav+Bhaji",
+        image: "/img1.jpg?height=128&width=128&text=Pav+Bhaji",
       },
       {
         id: "n1-16",
@@ -653,7 +653,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweet made with Nagpur oranges",
         price: 400,
         category: "Sweets",
-        image: "/placeholder.svg?height=128&width=128&text=Orange+Barfi",
+        image: "/img1.jpg?height=128&width=128&text=Orange+Barfi",
       },
       {
         id: "n1-17",
@@ -661,7 +661,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweet or salted yogurt-based drink",
         price: 80,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Lassi",
+        image: "/img1.jpg?height=128&width=128&text=Lassi",
       },
     ],
   },
@@ -679,9 +679,9 @@ export const restaurants: Restaurant[] = [
     openingHours: "Mon-Sun: 11:00 AM - 11:00 PM",
     featured: true,
     images: [
-      "/placeholder.svg?height=400&width=600&text=Saoji+Dining+Hall",
-      "/placeholder.svg?height=400&width=600&text=Saoji+Mutton",
-      "/placeholder.svg?height=400&width=600&text=Saoji+Thali",
+      "/img1.jpg?height=400&width=600&text=Saoji+Dining+Hall",
+      "/img4.jpg?height=400&width=600&text=Saoji+Mutton",
+      "/img4.jpg?height=400&width=600&text=Saoji+Thali",
     ],
     menu: [
       {
@@ -690,7 +690,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy mutton curry cooked in traditional Saoji style",
         price: 380,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Saoji+Mutton",
+        image: "/img1.jpg?height=128&width=128&text=Saoji+Mutton",
         popular: true,
       },
       {
@@ -699,7 +699,7 @@ export const restaurants: Restaurant[] = [
         description: "Fiery chicken curry with special Saoji masala",
         price: 320,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Saoji+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Saoji+Chicken",
       },
       {
         id: "n2-3",
@@ -707,7 +707,7 @@ export const restaurants: Restaurant[] = [
         description: "Gram flour dumplings in spicy gravy",
         price: 180,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Patodi+Rassa",
+        image: "/img1.jpg?height=128&width=128&text=Patodi+Rassa",
       },
       {
         id: "n2-4",
@@ -715,7 +715,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional sorghum flatbread",
         price: 30,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Jowar+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Jowar+Bhakri",
       },
       {
         id: "n2-5",
@@ -723,7 +723,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy green chili and garlic chutney",
         price: 50,
         category: "Sides",
-        image: "/placeholder.svg?height=128&width=128&text=Thecha",
+        image: "/img1.jpg?height=128&width=128&text=Thecha",
       },
       {
         id: "n2-6",
@@ -731,7 +731,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy fish curry in Saoji style",
         price: 350,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Saoji+Fish+Curry",
+        image: "/img1.jpg?height=128&width=128&text=Saoji+Fish+Curry",
       },
       {
         id: "n2-7",
@@ -739,7 +739,7 @@ export const restaurants: Restaurant[] = [
         description: "Dry spicy mutton preparation",
         price: 400,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Mutton+Fry",
+        image: "/img1.jpg?height=128&width=128&text=Mutton+Fry",
       },
       {
         id: "n2-8",
@@ -747,7 +747,7 @@ export const restaurants: Restaurant[] = [
         description: "Complete meal with Saoji specialties",
         price: 450,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Saoji+Thali",
+        image: "/img1.jpg?height=128&width=128&text=Saoji+Thali",
         popular: true,
       },
       {
@@ -756,7 +756,7 @@ export const restaurants: Restaurant[] = [
         description: "Dry spicy chicken preparation",
         price: 340,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Fry",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Fry",
       },
       {
         id: "n2-10",
@@ -764,7 +764,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy egg curry in Saoji style",
         price: 180,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Egg+Curry",
+        image: "/img1.jpg?height=128&width=128&text=Egg+Curry",
       },
       {
         id: "n2-11",
@@ -772,7 +772,7 @@ export const restaurants: Restaurant[] = [
         description: "Complete meal with Varhadi specialties",
         price: 420,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Thali",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Thali",
       },
       {
         id: "n2-12",
@@ -780,7 +780,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese in spicy Saoji gravy",
         price: 250,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Saoji+Paneer",
+        image: "/img1.jpg?height=128&width=128&text=Saoji+Paneer",
       },
       {
         id: "n2-13",
@@ -788,7 +788,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy mutton liver preparation",
         price: 320,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Mutton+Liver+Fry",
+        image: "/img1.jpg?height=128&width=128&text=Mutton+Liver+Fry",
       },
       {
         id: "n2-14",
@@ -796,7 +796,7 @@ export const restaurants: Restaurant[] = [
         description: "Lentils cooked with Saoji spices",
         price: 150,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Saoji+Dal",
+        image: "/img1.jpg?height=128&width=128&text=Saoji+Dal",
       },
       {
         id: "n2-15",
@@ -804,7 +804,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced yogurt-based drink",
         price: 60,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Buttermilk",
+        image: "/img1.jpg?height=128&width=128&text=Buttermilk",
       },
       {
         id: "n2-16",
@@ -812,7 +812,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy minced meat preparation",
         price: 300,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Saoji+Kheema",
+        image: "/img1.jpg?height=128&width=128&text=Saoji+Kheema",
       },
       {
         id: "n2-17",
@@ -820,7 +820,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional rice flatbread",
         price: 40,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Rice+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Rice+Bhakri",
       },
     ],
   },
@@ -837,9 +837,9 @@ export const restaurants: Restaurant[] = [
     phone: "+91 712 252 2697",
     openingHours: "Mon-Sun: 11:30 AM - 3:30 PM, 7:00 PM - 11:00 PM",
     images: [
-      "/placeholder.svg?height=400&width=600&text=Nanking+Restaurant",
-      "/placeholder.svg?height=400&width=600&text=Chinese+Cuisine",
-      "/placeholder.svg?height=400&width=600&text=Restaurant+Interior",
+      "/img2.jpg?height=400&width=600&text=Nanking+Restaurant",
+      "/img4.jpg?height=400&width=600&text=Chinese+Cuisine",
+      "/img4.jpg?height=400&width=600&text=Restaurant+Interior",
     ],
     menu: [
       {
@@ -848,7 +848,7 @@ export const restaurants: Restaurant[] = [
         description: "Fried chicken balls in spicy, tangy sauce",
         price: 280,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Manchurian",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Manchurian",
         popular: true,
       },
       {
@@ -857,7 +857,7 @@ export const restaurants: Restaurant[] = [
         description: "Stir-fried noodles with vegetables",
         price: 220,
         category: "Noodles",
-        image: "/placeholder.svg?height=128&width=128&text=Veg+Hakka+Noodles",
+        image: "/img1.jpg?height=128&width=128&text=Veg+Hakka+Noodles",
         popular: true,
       },
       {
@@ -866,7 +866,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese in spicy sauce with bell peppers",
         price: 260,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Chilli+Paneer",
+        image: "/img1.jpg?height=128&width=128&text=Chilli+Paneer",
       },
       {
         id: "n3-4",
@@ -874,7 +874,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy fried rice with Schezwan sauce",
         price: 240,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Schezwan+Fried+Rice",
+        image: "/img1.jpg?height=128&width=128&text=Schezwan+Fried+Rice",
       },
       {
         id: "n3-5",
@@ -882,7 +882,7 @@ export const restaurants: Restaurant[] = [
         description: "Chicken in sweet and sour sauce with vegetables",
         price: 320,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Sweet+and+Sour+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Sweet+and+Sour+Chicken",
       },
       {
         id: "n3-6",
@@ -890,7 +890,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy stir-fried chicken with peanuts and vegetables",
         price: 340,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Kung+Pao+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Kung+Pao+Chicken",
       },
       {
         id: "n3-7",
@@ -898,7 +898,7 @@ export const restaurants: Restaurant[] = [
         description: "Crispy rolls filled with vegetables",
         price: 180,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Veg+Spring+Rolls",
+        image: "/img1.jpg?height=128&width=128&text=Veg+Spring+Rolls",
       },
       {
         id: "n3-8",
@@ -906,7 +906,7 @@ export const restaurants: Restaurant[] = [
         description: "Crispy potatoes tossed in honey and chilli sauce",
         price: 200,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Honey+Chilli+Potatoes",
+        image: "/img1.jpg?height=128&width=128&text=Honey+Chilli+Potatoes",
       },
       {
         id: "n3-9",
@@ -914,7 +914,7 @@ export const restaurants: Restaurant[] = [
         description: "Fried rice with chicken and vegetables",
         price: 260,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Fried+Rice",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Fried+Rice",
       },
       {
         id: "n3-10",
@@ -922,7 +922,7 @@ export const restaurants: Restaurant[] = [
         description: "Vegetable balls in spicy, tangy sauce",
         price: 240,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Veg+Manchurian",
+        image: "/img1.jpg?height=128&width=128&text=Veg+Manchurian",
       },
       {
         id: "n3-11",
@@ -930,7 +930,7 @@ export const restaurants: Restaurant[] = [
         description: "Stir-fried noodles with chicken",
         price: 260,
         category: "Noodles",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Noodles",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Noodles",
       },
       {
         id: "n3-12",
@@ -938,7 +938,7 @@ export const restaurants: Restaurant[] = [
         description: "Prawns tossed in chilli garlic sauce",
         price: 380,
         category: "Seafood",
-        image: "/placeholder.svg?height=128&width=128&text=Chilli+Garlic+Prawns",
+        image: "/img1.jpg?height=128&width=128&text=Chilli+Garlic+Prawns",
       },
       {
         id: "n3-13",
@@ -946,7 +946,7 @@ export const restaurants: Restaurant[] = [
         description: "Combination of noodles, rice, and gravy",
         price: 280,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Veg+Triple+Schezwan",
+        image: "/img1.jpg?height=128&width=128&text=Veg+Triple+Schezwan",
       },
       {
         id: "n3-14",
@@ -954,7 +954,7 @@ export const restaurants: Restaurant[] = [
         description: "Combination of noodles, rice, and chicken gravy",
         price: 320,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Triple+Schezwan",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Triple+Schezwan",
       },
       {
         id: "n3-15",
@@ -962,7 +962,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweet pancakes with date filling",
         price: 220,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Date+Pancakes",
+        image: "/img1.jpg?height=128&width=128&text=Date+Pancakes",
       },
       {
         id: "n3-16",
@@ -970,7 +970,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy chicken winglets",
         price: 280,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Lollipop",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Lollipop",
       },
       {
         id: "n3-17",
@@ -978,7 +978,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional Chinese tea",
         price: 120,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Jasmine+Tea",
+        image: "/img1.jpg?height=128&width=128&text=Jasmine+Tea",
       },
     ],
   },
@@ -996,9 +996,9 @@ export const restaurants: Restaurant[] = [
     openingHours: "Mon-Sun: 12:00 PM - 3:30 PM, 7:00 PM - 11:30 PM",
     featured: true,
     images: [
-      "/placeholder.svg?height=400&width=600&text=OakgrillBanquet+Restaurant",
-      "/placeholder.svg?height=400&width=600&text=Grilled+Specialties",
-      "/placeholder.svg?height=400&width=600&text=Continental+Cuisine",
+      "/img1.jpg?height=400&width=600&text=OakgrillBanquet+Restaurant",
+      "/img4.jpg?height=400&width=600&text=Grilled+Specialties",
+      "/img4.jpg?height=400&width=600&text=Continental+Cuisine",
     ],
     menu: [
       {
@@ -1007,7 +1007,7 @@ export const restaurants: Restaurant[] = [
         description: "Norwegian salmon with herb butter and seasonal vegetables",
         price: 850,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Grilled+Salmon",
+        image: "/img1.jpg?height=128&width=128&text=Grilled+Salmon",
         popular: true,
       },
       {
@@ -1016,7 +1016,7 @@ export const restaurants: Restaurant[] = [
         description: "Prime cut beef steak with peppercorn sauce and mashed potatoes",
         price: 950,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Beef+Tenderloin+Steak",
+        image: "/img1.jpg?height=128&width=128&text=Beef+Tenderloin+Steak",
         popular: true,
       },
       {
@@ -1025,7 +1025,7 @@ export const restaurants: Restaurant[] = [
         description: "Creamy Italian rice with wild mushrooms and parmesan",
         price: 450,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Mushroom+Risotto",
+        image: "/img1.jpg?height=128&width=128&text=Mushroom+Risotto",
       },
       {
         id: "n4-4",
@@ -1033,7 +1033,7 @@ export const restaurants: Restaurant[] = [
         description: "Romaine lettuce with Caesar dressing, croutons, and parmesan",
         price: 350,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Caesar+Salad",
+        image: "/img1.jpg?height=128&width=128&text=Caesar+Salad",
       },
       {
         id: "n4-5",
@@ -1041,7 +1041,7 @@ export const restaurants: Restaurant[] = [
         description: "Jumbo prawns marinated with herbs and grilled to perfection",
         price: 650,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Grilled+Prawns",
+        image: "/img1.jpg?height=128&width=128&text=Grilled+Prawns",
       },
       {
         id: "n4-6",
@@ -1049,7 +1049,7 @@ export const restaurants: Restaurant[] = [
         description: "Chicken breast stuffed with ham and cheese, served with mashed potatoes",
         price: 550,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Cordon+Bleu",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Cordon+Bleu",
       },
       {
         id: "n4-7",
@@ -1057,7 +1057,7 @@ export const restaurants: Restaurant[] = [
         description: "Grilled lamb chops with rosemary and garlic, served with roasted vegetables",
         price: 750,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Lamb+Chops",
+        image: "/img1.jpg?height=128&width=128&text=Lamb+Chops",
       },
       {
         id: "n4-8",
@@ -1065,7 +1065,7 @@ export const restaurants: Restaurant[] = [
         description: "Classic Italian coffee-flavored dessert",
         price: 350,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Tiramisu",
+        image: "/img1.jpg?height=128&width=128&text=Tiramisu",
       },
       {
         id: "n4-9",
@@ -1073,7 +1073,7 @@ export const restaurants: Restaurant[] = [
         description: "Warm chocolate cake with molten center and vanilla ice cream",
         price: 380,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Chocolate+Fondant",
+        image: "/img1.jpg?height=128&width=128&text=Chocolate+Fondant",
       },
       {
         id: "n4-10",
@@ -1081,7 +1081,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional French soup with caramelized onions and cheese crouton",
         price: 280,
         category: "Soups",
-        image: "/placeholder.svg?height=128&width=128&text=French+Onion+Soup",
+        image: "/img1.jpg?height=128&width=128&text=French+Onion+Soup",
       },
       {
         id: "n4-11",
@@ -1089,7 +1089,7 @@ export const restaurants: Restaurant[] = [
         description: "Assorted seasonal vegetables grilled with herbs and olive oil",
         price: 380,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Grilled+Vegetable+Platter",
+        image: "/img1.jpg?height=128&width=128&text=Grilled+Vegetable+Platter",
       },
       {
         id: "n4-12",
@@ -1097,7 +1097,7 @@ export const restaurants: Restaurant[] = [
         description: "Penne pasta in spicy tomato sauce",
         price: 420,
         category: "Pasta",
-        image: "/placeholder.svg?height=128&width=128&text=Penne+Arrabiata",
+        image: "/img1.jpg?height=128&width=128&text=Penne+Arrabiata",
       },
       {
         id: "n4-13",
@@ -1105,7 +1105,7 @@ export const restaurants: Restaurant[] = [
         description: "Spaghetti with creamy sauce, bacon, and parmesan",
         price: 450,
         category: "Pasta",
-        image: "/placeholder.svg?height=128&width=128&text=Spaghetti+Carbonara",
+        image: "/img1.jpg?height=128&width=128&text=Spaghetti+Carbonara",
       },
       {
         id: "n4-14",
@@ -1113,7 +1113,7 @@ export const restaurants: Restaurant[] = [
         description: "Herb-marinated chicken breast with mashed potatoes and vegetables",
         price: 480,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Grilled+Chicken+Breast",
+        image: "/img1.jpg?height=128&width=128&text=Grilled+Chicken+Breast",
       },
       {
         id: "n4-15",
@@ -1121,7 +1121,7 @@ export const restaurants: Restaurant[] = [
         description: "Classic French custard dessert with caramelized sugar top",
         price: 320,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Crème+Brûlée",
+        image: "/img1.jpg?height=128&width=128&text=Crème+Brûlée",
       },
       {
         id: "n4-16",
@@ -1129,7 +1129,7 @@ export const restaurants: Restaurant[] = [
         description: "Glass of premium red wine",
         price: 450,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Red+Wine",
+        image: "/img1.jpg?height=128&width=128&text=Red+Wine",
       },
       {
         id: "n4-17",
@@ -1137,7 +1137,7 @@ export const restaurants: Restaurant[] = [
         description: "Toasted bread topped with tomatoes, basil, and olive oil",
         price: 280,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Bruschetta",
+        image: "/img1.jpg?height=128&width=128&text=Bruschetta",
       },
     ],
   },
@@ -1154,9 +1154,9 @@ export const restaurants: Restaurant[] = [
     phone: "+91 712 253 9876",
     openingHours: "Mon-Sun: 11:00 AM - 11:00 PM",
     images: [
-      "/placeholder.svg?height=400&width=600&text=Graceinn+Restaurant",
-      "/placeholder.svg?height=400&width=600&text=Multi+Cuisine",
-      "/placeholder.svg?height=400&width=600&text=Family+Dining",
+      "/img2.jpg?height=400&width=600&text=Graceinn+Restaurant",
+      "/img4.jpg?height=400&width=600&text=Multi+Cuisine",
+      "/img4.jpg?height=400&width=600&text=Family+Dining",
     ],
     menu: [
       {
@@ -1165,7 +1165,7 @@ export const restaurants: Restaurant[] = [
         description: "Chicken in rich tomato and butter gravy",
         price: 350,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Butter+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Butter+Chicken",
         popular: true,
       },
       {
@@ -1174,7 +1174,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese marinated and grilled in tandoor",
         price: 280,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Paneer+Tikka",
+        image: "/img1.jpg?height=128&width=128&text=Paneer+Tikka",
         popular: true,
       },
       {
@@ -1183,7 +1183,7 @@ export const restaurants: Restaurant[] = [
         description: "Fried chicken balls in spicy, tangy sauce",
         price: 260,
         category: "Chinese",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Manchurian",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Manchurian",
       },
       {
         id: "n5-4",
@@ -1191,7 +1191,7 @@ export const restaurants: Restaurant[] = [
         description: "Stir-fried noodles with vegetables",
         price: 200,
         category: "Chinese",
-        image: "/placeholder.svg?height=128&width=128&text=Veg+Hakka+Noodles",
+        image: "/img1.jpg?height=128&width=128&text=Veg+Hakka+Noodles",
       },
       {
         id: "n5-5",
@@ -1199,7 +1199,7 @@ export const restaurants: Restaurant[] = [
         description: "Black lentils cooked with butter and cream",
         price: 220,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Dal+Makhani",
+        image: "/img1.jpg?height=128&width=128&text=Dal+Makhani",
       },
       {
         id: "n5-6",
@@ -1207,7 +1207,7 @@ export const restaurants: Restaurant[] = [
         description: "Leavened bread baked in tandoor",
         price: 50,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Naan",
+        image: "/img1.jpg?height=128&width=128&text=Naan",
       },
       {
         id: "n5-7",
@@ -1215,7 +1215,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with chicken and spices",
         price: 280,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Biryani",
       },
       {
         id: "n5-8",
@@ -1223,7 +1223,7 @@ export const restaurants: Restaurant[] = [
         description: "Deep-fried milk solids soaked in sugar syrup",
         price: 80,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Gulab+Jamun",
+        image: "/img1.jpg?height=128&width=128&text=Gulab+Jamun",
       },
       {
         id: "n5-9",
@@ -1231,7 +1231,7 @@ export const restaurants: Restaurant[] = [
         description: "Marinated chicken pieces grilled in tandoor",
         price: 300,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Tikka",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Tikka",
       },
       {
         id: "n5-10",
@@ -1239,7 +1239,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese in spinach gravy",
         price: 240,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Palak+Paneer",
+        image: "/img1.jpg?height=128&width=128&text=Palak+Paneer",
       },
       {
         id: "n5-11",
@@ -1247,7 +1247,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy fried rice with Schezwan sauce",
         price: 220,
         category: "Chinese",
-        image: "/placeholder.svg?height=128&width=128&text=Schezwan+Fried+Rice",
+        image: "/img1.jpg?height=128&width=128&text=Schezwan+Fried+Rice",
       },
       {
         id: "n5-12",
@@ -1255,7 +1255,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese in spicy sauce with bell peppers",
         price: 240,
         category: "Chinese",
-        image: "/placeholder.svg?height=128&width=128&text=Chilli+Paneer",
+        image: "/img1.jpg?height=128&width=128&text=Chilli+Paneer",
       },
       {
         id: "n5-13",
@@ -1263,7 +1263,7 @@ export const restaurants: Restaurant[] = [
         description: "Whole wheat bread baked in tandoor",
         price: 30,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Tandoori+Roti",
+        image: "/img1.jpg?height=128&width=128&text=Tandoori+Roti",
       },
       {
         id: "n5-14",
@@ -1271,7 +1271,7 @@ export const restaurants: Restaurant[] = [
         description: "Potato and paneer dumplings in rich creamy gravy",
         price: 260,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Malai+Kofta",
+        image: "/img1.jpg?height=128&width=128&text=Malai+Kofta",
       },
       {
         id: "n5-15",
@@ -1279,7 +1279,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced Indian tea",
         price: 40,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Masala+Chai",
+        image: "/img1.jpg?height=128&width=128&text=Masala+Chai",
       },
       {
         id: "n5-16",
@@ -1287,7 +1287,7 @@ export const restaurants: Restaurant[] = [
         description: "Vegetable balls in spicy, tangy sauce",
         price: 220,
         category: "Chinese",
-        image: "/placeholder.svg?height=128&width=128&text=Veg+Manchurian",
+        image: "/img1.jpg?height=128&width=128&text=Veg+Manchurian",
       },
       {
         id: "n5-17",
@@ -1295,7 +1295,7 @@ export const restaurants: Restaurant[] = [
         description: "Soft cheese balls soaked in sugar syrup",
         price: 70,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Rasgulla",
+        image: "/img1.jpg?height=128&width=128&text=Rasgulla",
       },
     ],
   },
@@ -1315,9 +1315,9 @@ export const restaurants: Restaurant[] = [
     openingHours: "Mon-Sun: 11:00 AM - 11:00 PM",
     featured: true,
     images: [
-      "/placeholder.svg?height=400&width=600&text=Rukhmini+Garden+Restaurant",
-      "/placeholder.svg?height=400&width=600&text=Vidarbha+Thali",
-      "/placeholder.svg?height=400&width=600&text=Garden+Seating",
+      "/img1.jpg?height=400&width=600&text=Rukhmini+Garden+Restaurant",
+      "/img4.jpg?height=400&width=600&text=Vidarbha+Thali",
+      "/img4.jpg?height=400&width=600&text=Garden+Seating",
     ],
     menu: [
       {
@@ -1326,7 +1326,7 @@ export const restaurants: Restaurant[] = [
         description: "Complete meal with regional specialties",
         price: 350,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Vidarbha+Special+Thali",
+        image: "/img1.jpg?height=128&width=128&text=Vidarbha+Special+Thali",
         popular: true,
       },
       {
@@ -1335,7 +1335,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy mutton curry in Varhadi style",
         price: 380,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Mutton",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Mutton",
         popular: true,
       },
       {
@@ -1344,7 +1344,7 @@ export const restaurants: Restaurant[] = [
         description: "Gram flour preparation served with millet flatbread",
         price: 150,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Zunka+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Zunka+Bhakri",
       },
       {
         id: "a1-4",
@@ -1352,7 +1352,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy flattened rice snack",
         price: 90,
         category: "Snacks",
-        image: "/placeholder.svg?height=128&width=128&text=Poha+Chiwda",
+        image: "/img1.jpg?height=128&width=128&text=Poha+Chiwda",
       },
       {
         id: "a1-5",
@@ -1360,7 +1360,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy green chili and garlic chutney",
         price: 60,
         category: "Sides",
-        image: "/placeholder.svg?height=128&width=128&text=Thecha",
+        image: "/img1.jpg?height=128&width=128&text=Thecha",
       },
       {
         id: "a1-6",
@@ -1368,7 +1368,7 @@ export const restaurants: Restaurant[] = [
         description: "Chicken in rich tomato and butter gravy",
         price: 320,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Butter+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Butter+Chicken",
       },
       {
         id: "a1-7",
@@ -1376,7 +1376,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese in spicy gravy",
         price: 280,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Paneer+Tikka+Masala",
+        image: "/img1.jpg?height=128&width=128&text=Paneer+Tikka+Masala",
       },
       {
         id: "a1-8",
@@ -1384,7 +1384,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional sorghum flatbread",
         price: 30,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Jowar+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Jowar+Bhakri",
       },
       {
         id: "a1-9",
@@ -1392,7 +1392,7 @@ export const restaurants: Restaurant[] = [
         description: "Leavened bread baked in tandoor",
         price: 50,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Naan",
+        image: "/img1.jpg?height=128&width=128&text=Naan",
       },
       {
         id: "a1-10",
@@ -1400,7 +1400,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy chicken curry in Varhadi style",
         price: 320,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Chicken",
       },
       {
         id: "a1-11",
@@ -1408,7 +1408,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with meat and spices",
         price: 280,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Amravati+Special+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Amravati+Special+Biryani",
       },
       {
         id: "a1-12",
@@ -1416,7 +1416,7 @@ export const restaurants: Restaurant[] = [
         description: "Sprouted moth beans curry",
         price: 120,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Matki+Usal",
+        image: "/img1.jpg?height=128&width=128&text=Matki+Usal",
       },
       {
         id: "a1-13",
@@ -1424,7 +1424,7 @@ export const restaurants: Restaurant[] = [
         description: "Deep-fried milk solids soaked in sugar syrup",
         price: 70,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Gulab+Jamun",
+        image: "/img1.jpg?height=128&width=128&text=Gulab+Jamun",
       },
       {
         id: "a1-14",
@@ -1432,7 +1432,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweet or salted yogurt-based drink",
         price: 80,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Lassi",
+        image: "/img1.jpg?height=128&width=128&text=Lassi",
       },
       {
         id: "a1-15",
@@ -1440,7 +1440,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced Indian tea",
         price: 40,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Masala+Chai",
+        image: "/img1.jpg?height=128&width=128&text=Masala+Chai",
       },
       {
         id: "a1-16",
@@ -1448,7 +1448,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy fish curry in Varhadi style",
         price: 350,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Fish+Curry",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Fish+Curry",
       },
       {
         id: "a1-17",
@@ -1456,7 +1456,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweetened strained yogurt with saffron and cardamom",
         price: 90,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Shrikhand",
+        image: "/img1.jpg?height=128&width=128&text=Shrikhand",
       },
     ],
   },
@@ -1473,9 +1473,9 @@ export const restaurants: Restaurant[] = [
     phone: "+91 721 266 7890",
     openingHours: "Mon-Sun: 11:00 AM - 11:00 PM",
     images: [
-      "/placeholder.svg?height=400&width=600&text=Hotel+Mehfil",
-      "/placeholder.svg?height=400&width=600&text=North+Indian+Cuisine",
-      "/placeholder.svg?height=400&width=600&text=Restaurant+Interior",
+      "/img3.jpg?height=400&width=600&text=Hotel+Mehfil",
+      "/img4.jpg?height=400&width=600&text=North+Indian+Cuisine",
+      "/img4.jpg?height=400&width=600&text=Restaurant+Interior",
     ],
     menu: [
       {
@@ -1484,7 +1484,7 @@ export const restaurants: Restaurant[] = [
         description: "Chicken in rich tomato and butter gravy",
         price: 320,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Butter+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Butter+Chicken",
         popular: true,
       },
       {
@@ -1493,7 +1493,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with chicken and spices",
         price: 280,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Biryani",
         popular: true,
       },
       {
@@ -1502,7 +1502,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese in rich tomato and butter gravy",
         price: 260,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Paneer+Butter+Masala",
+        image: "/img1.jpg?height=128&width=128&text=Paneer+Butter+Masala",
       },
       {
         id: "a2-4",
@@ -1510,7 +1510,7 @@ export const restaurants: Restaurant[] = [
         description: "Chicken marinated in yogurt and spices, cooked in tandoor",
         price: 300,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Tandoori+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Tandoori+Chicken",
       },
       {
         id: "a2-5",
@@ -1518,7 +1518,7 @@ export const restaurants: Restaurant[] = [
         description: "Leavened bread baked in tandoor",
         price: 50,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Naan",
+        image: "/img1.jpg?height=128&width=128&text=Naan",
       },
       {
         id: "a2-6",
@@ -1526,7 +1526,7 @@ export const restaurants: Restaurant[] = [
         description: "Naan bread topped with butter",
         price: 60,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Butter+Naan",
+        image: "/img1.jpg?height=128&width=128&text=Butter+Naan",
       },
       {
         id: "a2-7",
@@ -1534,7 +1534,7 @@ export const restaurants: Restaurant[] = [
         description: "Black lentils cooked with butter and cream",
         price: 220,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Dal+Makhani",
+        image: "/img1.jpg?height=128&width=128&text=Dal+Makhani",
       },
       {
         id: "a2-8",
@@ -1542,7 +1542,7 @@ export const restaurants: Restaurant[] = [
         description: "Boneless chicken pieces marinated and grilled",
         price: 280,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Tikka",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Tikka",
       },
       {
         id: "a2-9",
@@ -1550,7 +1550,7 @@ export const restaurants: Restaurant[] = [
         description: "Kashmiri mutton curry with aromatic spices",
         price: 350,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Mutton+Rogan+Josh",
+        image: "/img1.jpg?height=128&width=128&text=Mutton+Rogan+Josh",
       },
       {
         id: "a2-10",
@@ -1558,7 +1558,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with vegetables and spices",
         price: 240,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Veg+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Veg+Biryani",
       },
       {
         id: "a2-11",
@@ -1566,7 +1566,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese marinated and grilled in tandoor",
         price: 260,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Paneer+Tikka",
+        image: "/img1.jpg?height=128&width=128&text=Paneer+Tikka",
       },
       {
         id: "a2-12",
@@ -1574,7 +1574,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional chicken curry with spices",
         price: 280,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Curry",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Curry",
       },
       {
         id: "a2-13",
@@ -1582,7 +1582,7 @@ export const restaurants: Restaurant[] = [
         description: "Deep-fried milk solids soaked in sugar syrup",
         price: 70,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Gulab+Jamun",
+        image: "/img1.jpg?height=128&width=128&text=Gulab+Jamun",
       },
       {
         id: "a2-14",
@@ -1590,7 +1590,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweet or salted yogurt-based drink",
         price: 80,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Lassi",
+        image: "/img1.jpg?height=128&width=128&text=Lassi",
       },
       {
         id: "a2-15",
@@ -1598,7 +1598,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced Indian tea",
         price: 40,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Masala+Chai",
+        image: "/img1.jpg?height=128&width=128&text=Masala+Chai",
       },
       {
         id: "a2-16",
@@ -1606,7 +1606,7 @@ export const restaurants: Restaurant[] = [
         description: "Potato and paneer dumplings in rich creamy gravy",
         price: 260,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Malai+Kofta",
+        image: "/img1.jpg?height=128&width=128&text=Malai+Kofta",
       },
       {
         id: "a2-17",
@@ -1614,7 +1614,7 @@ export const restaurants: Restaurant[] = [
         description: "Yogurt with onions, tomatoes, and spices",
         price: 80,
         category: "Sides",
-        image: "/placeholder.svg?height=128&width=128&text=Raita",
+        image: "/img1.jpg?height=128&width=128&text=Raita",
       },
     ],
   },
@@ -1632,9 +1632,9 @@ export const restaurants: Restaurant[] = [
     openingHours: "Mon-Sun: 11:00 AM - 11:00 PM",
     featured: true,
     images: [
-      "/placeholder.svg?height=400&width=600&text=Virsa+Restaurant",
-      "/placeholder.svg?height=400&width=600&text=Punjabi+Cuisine",
-      "/placeholder.svg?height=400&width=600&text=Restaurant+Ambience",
+      "/img1.jpg?height=400&width=600&text=Virsa+Restaurant",
+      "/img4.jpg?height=400&width=600&text=Punjabi+Cuisine",
+      "/img4.jpg?height=400&width=600&text=Restaurant+Ambience",
     ],
     menu: [
       {
@@ -1643,7 +1643,7 @@ export const restaurants: Restaurant[] = [
         description: "Stuffed bread with potato filling, served with chole",
         price: 180,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Amritsari+Kulcha",
+        image: "/img1.jpg?height=128&width=128&text=Amritsari+Kulcha",
         popular: true,
       },
       {
@@ -1652,7 +1652,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional Punjabi mustard greens preparation",
         price: 250,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Sarson+Da+Saag",
+        image: "/img1.jpg?height=128&width=128&text=Sarson+Da+Saag",
         popular: true,
       },
       {
@@ -1661,7 +1661,7 @@ export const restaurants: Restaurant[] = [
         description: "Cornmeal flatbread, traditionally served with sarson da saag",
         price: 60,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Makki+Di+Roti",
+        image: "/img1.jpg?height=128&width=128&text=Makki+Di+Roti",
       },
       {
         id: "a3-4",
@@ -1669,7 +1669,7 @@ export const restaurants: Restaurant[] = [
         description: "Chicken in rich tomato and butter gravy",
         price: 320,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Butter+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Butter+Chicken",
       },
       {
         id: "a3-5",
@@ -1677,7 +1677,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced fish fritters, a specialty from Amritsar",
         price: 280,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Amritsari+Fish",
+        image: "/img1.jpg?height=128&width=128&text=Amritsari+Fish",
       },
       {
         id: "a3-6",
@@ -1685,7 +1685,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese marinated and grilled in tandoor",
         price: 260,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Paneer+Tikka",
+        image: "/img1.jpg?height=128&width=128&text=Paneer+Tikka",
       },
       {
         id: "a3-7",
@@ -1693,7 +1693,7 @@ export const restaurants: Restaurant[] = [
         description: "Black lentils cooked with butter and cream",
         price: 220,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Dal+Makhani",
+        image: "/img1.jpg?height=128&width=128&text=Dal+Makhani",
       },
       {
         id: "a3-8",
@@ -1701,7 +1701,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy chickpea curry served with fried bread",
         price: 180,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Chole+Bhature",
+        image: "/img1.jpg?height=128&width=128&text=Chole+Bhature",
       },
       {
         id: "a3-9",
@@ -1709,7 +1709,7 @@ export const restaurants: Restaurant[] = [
         description: "Yogurt-based curry with gram flour fritters",
         price: 200,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Punjabi+Kadhi+Pakora",
+        image: "/img1.jpg?height=128&width=128&text=Punjabi+Kadhi+Pakora",
       },
       {
         id: "a3-10",
@@ -1717,7 +1717,7 @@ export const restaurants: Restaurant[] = [
         description: "Chicken marinated in yogurt and spices, cooked in tandoor",
         price: 300,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Tandoori+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Tandoori+Chicken",
       },
       {
         id: "a3-11",
@@ -1725,7 +1725,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweet or salted yogurt-based drink",
         price: 80,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Lassi",
+        image: "/img1.jpg?height=128&width=128&text=Lassi",
       },
       {
         id: "a3-12",
@@ -1733,7 +1733,7 @@ export const restaurants: Restaurant[] = [
         description: "Complete meal with Punjabi specialties",
         price: 350,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Punjabi+Thali",
+        image: "/img1.jpg?height=128&width=128&text=Punjabi+Thali",
       },
       {
         id: "a3-13",
@@ -1741,7 +1741,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with chicken and spices",
         price: 280,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Biryani",
       },
       {
         id: "a3-14",
@@ -1749,7 +1749,7 @@ export const restaurants: Restaurant[] = [
         description: "Leavened bread baked in tandoor",
         price: 50,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Naan",
+        image: "/img1.jpg?height=128&width=128&text=Naan",
       },
       {
         id: "a3-15",
@@ -1757,7 +1757,7 @@ export const restaurants: Restaurant[] = [
         description: "Deep-fried milk solids soaked in sugar syrup",
         price: 70,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Gulab+Jamun",
+        image: "/img1.jpg?height=128&width=128&text=Gulab+Jamun",
       },
       {
         id: "a3-16",
@@ -1765,7 +1765,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional rice pudding dessert",
         price: 90,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Phirni",
+        image: "/img1.jpg?height=128&width=128&text=Phirni",
       },
       {
         id: "a3-17",
@@ -1773,7 +1773,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced Indian tea",
         price: 40,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Masala+Chai",
+        image: "/img1.jpg?height=128&width=128&text=Masala+Chai",
       },
     ],
   },
@@ -1790,9 +1790,9 @@ export const restaurants: Restaurant[] = [
     phone: "+91 721 254 3650",
     openingHours: "Mon-Sun: 11:00 AM - 11:00 PM",
     images: [
-      "/placeholder.svg?height=400&width=600&text=Kitchen+365",
-      "/placeholder.svg?height=400&width=600&text=Multi+Cuisine",
-      "/placeholder.svg?height=400&width=600&text=Modern+Setting",
+      "/img5.jpg?height=400&width=600&text=Kitchen+365",
+      "/img4.jpg?height=400&width=600&text=Multi+Cuisine",
+      "/img4.jpg?height=400&width=600&text=Modern+Setting",
     ],
     menu: [
       {
@@ -1801,7 +1801,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese in rich tomato and butter gravy",
         price: 260,
         category: "North Indian",
-        image: "/placeholder.svg?height=128&width=128&text=Paneer+Butter+Masala",
+        image: "/img1.jpg?height=128&width=128&text=Paneer+Butter+Masala",
         popular: true,
       },
       {
@@ -1810,7 +1810,7 @@ export const restaurants: Restaurant[] = [
         description: "Fried chicken balls in spicy, tangy sauce",
         price: 280,
         category: "Chinese",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Manchurian",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Manchurian",
         popular: true,
       },
       {
@@ -1819,7 +1819,7 @@ export const restaurants: Restaurant[] = [
         description: "Crispy rice pancake with spiced potato filling",
         price: 150,
         category: "South Indian",
-        image: "/placeholder.svg?height=128&width=128&text=Masala+Dosa",
+        image: "/img1.jpg?height=128&width=128&text=Masala+Dosa",
       },
       {
         id: "a4-4",
@@ -1827,7 +1827,7 @@ export const restaurants: Restaurant[] = [
         description: "Stir-fried noodles with vegetables",
         price: 200,
         category: "Chinese",
-        image: "/placeholder.svg?height=128&width=128&text=Veg+Hakka+Noodles",
+        image: "/img1.jpg?height=128&width=128&text=Veg+Hakka+Noodles",
       },
       {
         id: "a4-5",
@@ -1835,7 +1835,7 @@ export const restaurants: Restaurant[] = [
         description: "Chicken in rich tomato and butter gravy",
         price: 320,
         category: "North Indian",
-        image: "/placeholder.svg?height=128&width=128&text=Butter+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Butter+Chicken",
       },
       {
         id: "a4-6",
@@ -1843,7 +1843,7 @@ export const restaurants: Restaurant[] = [
         description: "Mashed vegetable curry served with buttered bread rolls",
         price: 150,
         category: "Street Food",
-        image: "/placeholder.svg?height=128&width=128&text=Pav+Bhaji",
+        image: "/img1.jpg?height=128&width=128&text=Pav+Bhaji",
       },
       {
         id: "a4-7",
@@ -1851,7 +1851,7 @@ export const restaurants: Restaurant[] = [
         description: "Steamed rice cakes served with lentil soup and chutney",
         price: 120,
         category: "South Indian",
-        image: "/placeholder.svg?height=128&width=128&text=Idli+Sambar",
+        image: "/img1.jpg?height=128&width=128&text=Idli+Sambar",
       },
       {
         id: "a4-8",
@@ -1859,7 +1859,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with chicken and spices",
         price: 280,
         category: "Biryani",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Biryani",
       },
       {
         id: "a4-9",
@@ -1867,7 +1867,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with vegetables and spices",
         price: 240,
         category: "Biryani",
-        image: "/placeholder.svg?height=128&width=128&text=Veg+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Veg+Biryani",
       },
       {
         id: "a4-10",
@@ -1875,7 +1875,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy fried rice with Schezwan sauce",
         price: 220,
         category: "Chinese",
-        image: "/placeholder.svg?height=128&width=128&text=Schezwan+Fried+Rice",
+        image: "/img1.jpg?height=128&width=128&text=Schezwan+Fried+Rice",
       },
       {
         id: "a4-11",
@@ -1883,7 +1883,7 @@ export const restaurants: Restaurant[] = [
         description: "Leavened bread baked in tandoor",
         price: 50,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Naan",
+        image: "/img1.jpg?height=128&width=128&text=Naan",
       },
       {
         id: "a4-12",
@@ -1891,7 +1891,7 @@ export const restaurants: Restaurant[] = [
         description: "Deep-fried milk solids soaked in sugar syrup",
         price: 70,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Gulab+Jamun",
+        image: "/img1.jpg?height=128&width=128&text=Gulab+Jamun",
       },
       {
         id: "a4-13",
@@ -1899,7 +1899,7 @@ export const restaurants: Restaurant[] = [
         description: "Assorted flavors of ice cream",
         price: 90,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Ice+Cream",
+        image: "/img1.jpg?height=128&width=128&text=Ice+Cream",
       },
       {
         id: "a4-14",
@@ -1907,7 +1907,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced Indian tea",
         price: 40,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Masala+Chai",
+        image: "/img1.jpg?height=128&width=128&text=Masala+Chai",
       },
       {
         id: "a4-15",
@@ -1915,7 +1915,7 @@ export const restaurants: Restaurant[] = [
         description: "Chilled coffee with ice cream",
         price: 100,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Cold+Coffee",
+        image: "/img1.jpg?height=128&width=128&text=Cold+Coffee",
       },
       {
         id: "a4-16",
@@ -1923,7 +1923,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy potato fritter in a bun",
         price: 50,
         category: "Street Food",
-        image: "/placeholder.svg?height=128&width=128&text=Vada+Pav",
+        image: "/img1.jpg?height=128&width=128&text=Vada+Pav",
       },
       {
         id: "a4-17",
@@ -1931,7 +1931,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese marinated and grilled in tandoor",
         price: 260,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Paneer+Tikka",
+        image: "/img1.jpg?height=128&width=128&text=Paneer+Tikka",
       },
     ],
   },
@@ -1951,9 +1951,9 @@ export const restaurants: Restaurant[] = [
     openingHours: "Mon-Sun: 11:00 AM - 11:00 PM",
     featured: true,
     images: [
-      "/placeholder.svg?height=400&width=600&text=Hotel+Ashoka",
-      "/placeholder.svg?height=400&width=600&text=Varhadi+Cuisine",
-      "/placeholder.svg?height=400&width=600&text=Restaurant+Interior",
+      "/img1.jpg?height=400&width=600&text=Hotel+Ashoka",
+      "/img4.jpg?height=400&width=600&text=Varhadi+Cuisine",
+      "/img4.jpg?height=400&width=600&text=Restaurant+Interior",
     ],
     menu: [
       {
@@ -1962,7 +1962,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy mutton curry in Varhadi style",
         price: 370,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Mutton",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Mutton",
         popular: true,
       },
       {
@@ -1971,7 +1971,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy chicken curry in Varhadi style",
         price: 310,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Chicken",
         popular: true,
       },
       {
@@ -1980,7 +1980,7 @@ export const restaurants: Restaurant[] = [
         description: "Complete meal with regional specialties",
         price: 330,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Akola+Special+Thali",
+        image: "/img1.jpg?height=128&width=128&text=Akola+Special+Thali",
       },
       {
         id: "ak1-4",
@@ -1988,7 +1988,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional sorghum flatbread",
         price: 30,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Jowar+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Jowar+Bhakri",
       },
       {
         id: "ak1-5",
@@ -1996,7 +1996,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy green chili and garlic chutney",
         price: 60,
         category: "Sides",
-        image: "/placeholder.svg?height=128&width=128&text=Thecha",
+        image: "/img1.jpg?height=128&width=128&text=Thecha",
       },
       {
         id: "ak1-6",
@@ -2004,7 +2004,7 @@ export const restaurants: Restaurant[] = [
         description: "Gram flour preparation served with millet flatbread",
         price: 150,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Zunka+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Zunka+Bhakri",
       },
       {
         id: "ak1-7",
@@ -2012,7 +2012,7 @@ export const restaurants: Restaurant[] = [
         description: "Dry spicy mutton preparation",
         price: 390,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Mutton+Fry",
+        image: "/img1.jpg?height=128&width=128&text=Mutton+Fry",
       },
       {
         id: "ak1-8",
@@ -2020,7 +2020,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with chicken and spices",
         price: 260,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Biryani",
       },
       {
         id: "ak1-9",
@@ -2028,7 +2028,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with mutton and spices",
         price: 290,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Mutton+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Mutton+Biryani",
       },
       {
         id: "ak1-10",
@@ -2036,7 +2036,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese in rich tomato and butter gravy",
         price: 270,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Paneer+Butter+Masala",
+        image: "/img1.jpg?height=128&width=128&text=Paneer+Butter+Masala",
       },
       {
         id: "ak1-11",
@@ -2044,7 +2044,7 @@ export const restaurants: Restaurant[] = [
         description: "Yellow lentils tempered with spices",
         price: 150,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Dal+Tadka",
+        image: "/img1.jpg?height=128&width=128&text=Dal+Tadka",
       },
       {
         id: "ak1-12",
@@ -2052,7 +2052,7 @@ export const restaurants: Restaurant[] = [
         description: "Leavened bread topped with butter",
         price: 60,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Butter+Naan",
+        image: "/img1.jpg?height=128&width=128&text=Butter+Naan",
       },
       {
         id: "ak1-13",
@@ -2060,7 +2060,7 @@ export const restaurants: Restaurant[] = [
         description: "Deep-fried milk solids soaked in sugar syrup",
         price: 70,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Gulab+Jamun",
+        image: "/img1.jpg?height=128&width=128&text=Gulab+Jamun",
       },
       {
         id: "ak1-14",
@@ -2068,7 +2068,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweet or salted yogurt-based drink",
         price: 80,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Lassi",
+        image: "/img1.jpg?height=128&width=128&text=Lassi",
       },
       {
         id: "ak1-15",
@@ -2076,7 +2076,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced Indian tea",
         price: 40,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Masala+Chai",
+        image: "/img1.jpg?height=128&width=128&text=Masala+Chai",
       },
       {
         id: "ak1-16",
@@ -2084,7 +2084,7 @@ export const restaurants: Restaurant[] = [
         description: "Marinated chicken pieces grilled in tandoor",
         price: 280,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Tikka",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Tikka",
       },
       {
         id: "ak1-17",
@@ -2092,7 +2092,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy fish curry in Varhadi style",
         price: 340,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Fish+Curry",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Fish+Curry",
       },
     ],
   },
@@ -2109,9 +2109,9 @@ export const restaurants: Restaurant[] = [
     phone: "+91 724 242 5678",
     openingHours: "Mon-Sun: 11:00 AM - 11:00 PM",
     images: [
-      "/placeholder.svg?height=400&width=600&text=Akola+Spice+House",
-      "/placeholder.svg?height=400&width=600&text=Vidarbha+Cuisine",
-      "/placeholder.svg?height=400&width=600&text=Restaurant+Interior",
+      "/img6.jpg?height=400&width=600&text=Akola+Spice+House",
+      "/img4.jpg?height=400&width=600&text=Vidarbha+Cuisine",
+      "/img4.jpg?height=400&width=600&text=Restaurant+Interior",
     ],
     menu: [
       {
@@ -2120,7 +2120,7 @@ export const restaurants: Restaurant[] = [
         description: "Complete meal with regional specialties",
         price: 320,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Vidarbha+Special+Thali",
+        image: "/img1.jpg?height=128&width=128&text=Vidarbha+Special+Thali",
         popular: true,
       },
       {
@@ -2129,7 +2129,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy mutton curry in Varhadi style",
         price: 360,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Mutton",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Mutton",
         popular: true,
       },
       {
@@ -2138,7 +2138,7 @@ export const restaurants: Restaurant[] = [
         description: "Gram flour preparation served with millet flatbread",
         price: 140,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Zunka+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Zunka+Bhakri",
       },
       {
         id: "ak2-4",
@@ -2146,7 +2146,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional sorghum flatbread",
         price: 30,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Jowar+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Jowar+Bhakri",
       },
       {
         id: "ak2-5",
@@ -2154,7 +2154,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy green chili and garlic chutney",
         price: 60,
         category: "Sides",
-        image: "/placeholder.svg?height=128&width=128&text=Thecha",
+        image: "/img1.jpg?height=128&width=128&text=Thecha",
       },
       {
         id: "ak2-6",
@@ -2162,7 +2162,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy chicken curry in Varhadi style",
         price: 300,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Chicken",
       },
       {
         id: "ak2-7",
@@ -2170,7 +2170,7 @@ export const restaurants: Restaurant[] = [
         description: "Dry spicy mutton preparation",
         price: 380,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Mutton+Fry",
+        image: "/img1.jpg?height=128&width=128&text=Mutton+Fry",
       },
       {
         id: "ak2-8",
@@ -2178,7 +2178,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with chicken and spices",
         price: 250,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Biryani",
       },
       {
         id: "ak2-9",
@@ -2186,7 +2186,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with mutton and spices",
         price: 280,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Mutton+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Mutton+Biryani",
       },
       {
         id: "ak2-10",
@@ -2194,7 +2194,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese in rich tomato and butter gravy",
         price: 260,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Paneer+Butter+Masala",
+        image: "/img1.jpg?height=128&width=128&text=Paneer+Butter+Masala",
       },
       {
         id: "ak2-11",
@@ -2202,7 +2202,7 @@ export const restaurants: Restaurant[] = [
         description: "Yellow lentils tempered with spices",
         price: 140,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Dal+Tadka",
+        image: "/img1.jpg?height=128&width=128&text=Dal+Tadka",
       },
       {
         id: "ak2-12",
@@ -2210,7 +2210,7 @@ export const restaurants: Restaurant[] = [
         description: "Leavened bread topped with butter",
         price: 60,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Butter+Naan",
+        image: "/img1.jpg?height=128&width=128&text=Butter+Naan",
       },
       {
         id: "ak2-13",
@@ -2218,7 +2218,7 @@ export const restaurants: Restaurant[] = [
         description: "Deep-fried milk solids soaked in sugar syrup",
         price: 70,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Gulab+Jamun",
+        image: "/img1.jpg?height=128&width=128&text=Gulab+Jamun",
       },
       {
         id: "ak2-14",
@@ -2226,7 +2226,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweet or salted yogurt-based drink",
         price: 80,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Lassi",
+        image: "/img1.jpg?height=128&width=128&text=Lassi",
       },
       {
         id: "ak2-15",
@@ -2234,7 +2234,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced Indian tea",
         price: 40,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Masala+Chai",
+        image: "/img1.jpg?height=128&width=128&text=Masala+Chai",
       },
       {
         id: "ak2-16",
@@ -2242,7 +2242,7 @@ export const restaurants: Restaurant[] = [
         description: "Marinated chicken pieces grilled in tandoor",
         price: 270,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Tikka",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Tikka",
       },
       {
         id: "ak2-17",
@@ -2250,7 +2250,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy fish curry in Varhadi style",
         price: 330,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Fish+Curry",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Fish+Curry",
       },
     ],
   },
@@ -2268,9 +2268,9 @@ export const restaurants: Restaurant[] = [
     openingHours: "Mon-Sun: 11:00 AM - 11:00 PM",
     featured: true,
     images: [
-      "/placeholder.svg?height=400&width=600&text=Eagle+Restaurant",
-      "/placeholder.svg?height=400&width=600&text=Multi+Cuisine",
-      "/placeholder.svg?height=400&width=600&text=Family+Dining",
+      "/img1.jpg?height=400&width=600&text=Eagle+Restaurant",
+      "/img4.jpg?height=400&width=600&text=Multi+Cuisine",
+      "/img4.jpg?height=400&width=600&text=Family+Dining",
     ],
     menu: [
       {
@@ -2279,7 +2279,7 @@ export const restaurants: Restaurant[] = [
         description: "Chicken in rich tomato and butter gravy",
         price: 320,
         category: "North Indian",
-        image: "/placeholder.svg?height=128&width=128&text=Butter+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Butter+Chicken",
         popular: true,
       },
       {
@@ -2288,7 +2288,7 @@ export const restaurants: Restaurant[] = [
         description: "Fried chicken balls in spicy, tangy sauce",
         price: 280,
         category: "Chinese",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Manchurian",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Manchurian",
         popular: true,
       },
       {
@@ -2297,7 +2297,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese in rich tomato and butter gravy",
         price: 260,
         category: "North Indian",
-        image: "/placeholder.svg?height=128&width=128&text=Paneer+Butter+Masala",
+        image: "/img1.jpg?height=128&width=128&text=Paneer+Butter+Masala",
       },
       {
         id: "ak3-4",
@@ -2305,7 +2305,7 @@ export const restaurants: Restaurant[] = [
         description: "Stir-fried noodles with vegetables",
         price: 200,
         category: "Chinese",
-        image: "/placeholder.svg?height=128&width=128&text=Veg+Hakka+Noodles",
+        image: "/img1.jpg?height=128&width=128&text=Veg+Hakka+Noodles",
       },
       {
         id: "ak3-5",
@@ -2313,7 +2313,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with chicken and spices",
         price: 260,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Biryani",
       },
       {
         id: "ak3-6",
@@ -2321,7 +2321,7 @@ export const restaurants: Restaurant[] = [
         description: "Leavened bread baked in tandoor",
         price: 50,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Naan",
+        image: "/img1.jpg?height=128&width=128&text=Naan",
       },
       {
         id: "ak3-7",
@@ -2329,7 +2329,7 @@ export const restaurants: Restaurant[] = [
         description: "Black lentils cooked with butter and cream",
         price: 220,
         category: "North Indian",
-        image: "/placeholder.svg?height=128&width=128&text=Dal+Makhani",
+        image: "/img1.jpg?height=128&width=128&text=Dal+Makhani",
       },
       {
         id: "ak3-8",
@@ -2337,7 +2337,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy fried rice with Schezwan sauce",
         price: 220,
         category: "Chinese",
-        image: "/placeholder.svg?height=128&width=128&text=Schezwan+Fried+Rice",
+        image: "/img1.jpg?height=128&width=128&text=Schezwan+Fried+Rice",
       },
       {
         id: "ak3-9",
@@ -2345,7 +2345,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese in spicy sauce with bell peppers",
         price: 240,
         category: "Chinese",
-        image: "/placeholder.svg?height=128&width=128&text=Chilli+Paneer",
+        image: "/img1.jpg?height=128&width=128&text=Chilli+Paneer",
       },
       {
         id: "ak3-10",
@@ -2353,7 +2353,7 @@ export const restaurants: Restaurant[] = [
         description: "Chicken marinated in yogurt and spices, cooked in tandoor",
         price: 300,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Tandoori+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Tandoori+Chicken",
       },
       {
         id: "ak3-11",
@@ -2361,7 +2361,7 @@ export const restaurants: Restaurant[] = [
         description: "Boneless chicken pieces marinated and grilled",
         price: 280,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Tikka",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Tikka",
       },
       {
         id: "ak3-12",
@@ -2369,7 +2369,7 @@ export const restaurants: Restaurant[] = [
         description: "Deep-fried milk solids soaked in sugar syrup",
         price: 70,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Gulab+Jamun",
+        image: "/img1.jpg?height=128&width=128&text=Gulab+Jamun",
       },
       {
         id: "ak3-13",
@@ -2377,7 +2377,7 @@ export const restaurants: Restaurant[] = [
         description: "Assorted flavors of ice cream",
         price: 90,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Ice+Cream",
+        image: "/img1.jpg?height=128&width=128&text=Ice+Cream",
       },
       {
         id: "ak3-14",
@@ -2385,7 +2385,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced Indian tea",
         price: 40,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Masala+Chai",
+        image: "/img1.jpg?height=128&width=128&text=Masala+Chai",
       },
       {
         id: "ak3-15",
@@ -2393,7 +2393,7 @@ export const restaurants: Restaurant[] = [
         description: "Chilled coffee with ice cream",
         price: 100,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Cold+Coffee",
+        image: "/img1.jpg?height=128&width=128&text=Cold+Coffee",
       },
       {
         id: "ak3-16",
@@ -2401,7 +2401,7 @@ export const restaurants: Restaurant[] = [
         description: "Crispy rolls filled with vegetables",
         price: 180,
         category: "Chinese",
-        image: "/placeholder.svg?height=128&width=128&text=Veg+Spring+Rolls",
+        image: "/img1.jpg?height=128&width=128&text=Veg+Spring+Rolls",
       },
       {
         id: "ak3-17",
@@ -2409,7 +2409,7 @@ export const restaurants: Restaurant[] = [
         description: "Potato and paneer dumplings in rich creamy gravy",
         price: 260,
         category: "North Indian",
-        image: "/placeholder.svg?height=128&width=128&text=Malai+Kofta",
+        image: "/img1.jpg?height=128&width=128&text=Malai+Kofta",
       },
     ],
   },
@@ -2426,9 +2426,9 @@ export const restaurants: Restaurant[] = [
     phone: "+91 724 243 9876",
     openingHours: "Mon-Sun: 11:00 AM - 10:30 PM",
     images: [
-      "/placeholder.svg?height=400&width=600&text=Reva+Restaurant",
-      "/placeholder.svg?height=400&width=600&text=Maharashtrian+Cuisine",
-      "/placeholder.svg?height=400&width=600&text=Traditional+Setting",
+      "/img5.jpg?height=400&width=600&text=Reva+Restaurant",
+      "/img4.jpg?height=400&width=600&text=Maharashtrian+Cuisine",
+      "/img4.jpg?height=400&width=600&text=Traditional+Setting",
     ],
     menu: [
       {
@@ -2437,7 +2437,7 @@ export const restaurants: Restaurant[] = [
         description: "Complete meal with bhakri, pitla, bharli vangi, and more",
         price: 320,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Maharashtrian+Thali",
+        image: "/img1.jpg?height=128&width=128&text=Maharashtrian+Thali",
         popular: true,
       },
       {
@@ -2446,7 +2446,7 @@ export const restaurants: Restaurant[] = [
         description: "Gram flour preparation served with millet flatbread",
         price: 140,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Zunka+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Zunka+Bhakri",
         popular: true,
       },
       {
@@ -2455,7 +2455,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy mutton curry in Varhadi style",
         price: 360,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Mutton",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Mutton",
       },
       {
         id: "ak4-4",
@@ -2463,7 +2463,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy green chili and garlic chutney",
         price: 60,
         category: "Sides",
-        image: "/placeholder.svg?height=128&width=128&text=Thecha",
+        image: "/img1.jpg?height=128&width=128&text=Thecha",
       },
       {
         id: "ak4-5",
@@ -2471,7 +2471,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional sorghum flatbread",
         price: 30,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Jowar+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Jowar+Bhakri",
       },
       {
         id: "ak4-6",
@@ -2479,7 +2479,7 @@ export const restaurants: Restaurant[] = [
         description: "Sprouted moth beans curry",
         price: 120,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Matki+Usal",
+        image: "/img1.jpg?height=128&width=128&text=Matki+Usal",
       },
       {
         id: "ak4-7",
@@ -2487,7 +2487,7 @@ export const restaurants: Restaurant[] = [
         description: "Stuffed eggplant in peanut and coconut gravy",
         price: 160,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Bharli+Vangi",
+        image: "/img1.jpg?height=128&width=128&text=Bharli+Vangi",
       },
       {
         id: "ak4-8",
@@ -2495,7 +2495,7 @@ export const restaurants: Restaurant[] = [
         description: "Gram flour curry with spices",
         price: 110,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Pithla",
+        image: "/img1.jpg?height=128&width=128&text=Pithla",
       },
       {
         id: "ak4-9",
@@ -2503,7 +2503,7 @@ export const restaurants: Restaurant[] = [
         description: "Multi-grain savory pancake served with white butter",
         price: 120,
         category: "Breakfast",
-        image: "/placeholder.svg?height=128&width=128&text=Thalipeeth",
+        image: "/img1.jpg?height=128&width=128&text=Thalipeeth",
       },
       {
         id: "ak4-10",
@@ -2511,7 +2511,7 @@ export const restaurants: Restaurant[] = [
         description: "Steamed and fried coriander cakes with spices",
         price: 100,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Kothimbir+Vadi",
+        image: "/img1.jpg?height=128&width=128&text=Kothimbir+Vadi",
       },
       {
         id: "ak4-11",
@@ -2519,7 +2519,7 @@ export const restaurants: Restaurant[] = [
         description: "Sago pearls cooked with peanuts and potatoes",
         price: 110,
         category: "Breakfast",
-        image: "/placeholder.svg?height=128&width=128&text=Sabudana+Khichdi",
+        image: "/img1.jpg?height=128&width=128&text=Sabudana+Khichdi",
       },
       {
         id: "ak4-12",
@@ -2527,7 +2527,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweet flatbread stuffed with jaggery and lentil mixture",
         price: 80,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Puran+Poli",
+        image: "/img1.jpg?height=128&width=128&text=Puran+Poli",
       },
       {
         id: "ak4-13",
@@ -2535,7 +2535,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweetened strained yogurt with saffron and cardamom",
         price: 90,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Shrikhand",
+        image: "/img1.jpg?height=128&width=128&text=Shrikhand",
       },
       {
         id: "ak4-14",
@@ -2543,7 +2543,7 @@ export const restaurants: Restaurant[] = [
         description: "Pink kokum and coconut milk digestive",
         price: 70,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Sol+Kadhi",
+        image: "/img1.jpg?height=128&width=128&text=Sol+Kadhi",
       },
       {
         id: "ak4-15",
@@ -2551,7 +2551,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced Indian tea",
         price: 40,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Masala+Chai",
+        image: "/img1.jpg?height=128&width=128&text=Masala+Chai",
       },
       {
         id: "ak4-16",
@@ -2559,7 +2559,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy chicken curry in Varhadi style",
         price: 300,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Chicken",
       },
       {
         id: "ak4-17",
@@ -2567,7 +2567,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced rice with vegetables and special masala",
         price: 150,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Masale+Bhat",
+        image: "/img1.jpg?height=128&width=128&text=Masale+Bhat",
       },
     ],
   },
@@ -2587,9 +2587,9 @@ export const restaurants: Restaurant[] = [
     openingHours: "Mon-Sun: 11:00 AM - 11:00 PM",
     featured: true,
     images: [
-      "/placeholder.svg?height=400&width=600&text=Chandrapur+Spice+House",
-      "/placeholder.svg?height=400&width=600&text=Varhadi+Cuisine",
-      "/placeholder.svg?height=400&width=600&text=Restaurant+Interior",
+      "/img2.jpg?height=400&width=600&text=Chandrapur+Spice+House",
+      "/img4.jpg?height=400&width=600&text=Varhadi+Cuisine",
+      "/img4.jpg?height=400&width=600&text=Restaurant+Interior",
     ],
     menu: [
       {
@@ -2598,7 +2598,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy mutton curry in Varhadi style",
         price: 360,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Mutton",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Mutton",
         popular: true,
       },
       {
@@ -2607,7 +2607,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy chicken curry in Varhadi style",
         price: 300,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Chicken",
         popular: true,
       },
       {
@@ -2616,7 +2616,7 @@ export const restaurants: Restaurant[] = [
         description: "Complete meal with regional specialties",
         price: 320,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Chandrapur+Special+Thali",
+        image: "/img1.jpg?height=128&width=128&text=Chandrapur+Special+Thali",
       },
       {
         id: "c1-4",
@@ -2624,7 +2624,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional sorghum flatbread",
         price: 30,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Jowar+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Jowar+Bhakri",
       },
       {
         id: "c1-5",
@@ -2632,7 +2632,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy green chili and garlic chutney",
         price: 60,
         category: "Sides",
-        image: "/placeholder.svg?height=128&width=128&text=Thecha",
+        image: "/img1.jpg?height=128&width=128&text=Thecha",
       },
       {
         id: "c1-6",
@@ -2640,7 +2640,7 @@ export const restaurants: Restaurant[] = [
         description: "Gram flour preparation served with millet flatbread",
         price: 150,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Zunka+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Zunka+Bhakri",
       },
       {
         id: "c1-7",
@@ -2648,7 +2648,7 @@ export const restaurants: Restaurant[] = [
         description: "Dry spicy mutton preparation",
         price: 380,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Mutton+Fry",
+        image: "/img1.jpg?height=128&width=128&text=Mutton+Fry",
       },
       {
         id: "c1-8",
@@ -2656,7 +2656,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with chicken and spices",
         price: 250,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Biryani",
       },
       {
         id: "c1-9",
@@ -2664,7 +2664,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with mutton and spices",
         price: 280,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Mutton+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Mutton+Biryani",
       },
       {
         id: "c1-10",
@@ -2672,7 +2672,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese in rich tomato and butter gravy",
         price: 260,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Paneer+Butter+Masala",
+        image: "/img1.jpg?height=128&width=128&text=Paneer+Butter+Masala",
       },
       {
         id: "c1-11",
@@ -2680,7 +2680,7 @@ export const restaurants: Restaurant[] = [
         description: "Yellow lentils tempered with spices",
         price: 140,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Dal+Tadka",
+        image: "/img1.jpg?height=128&width=128&text=Dal+Tadka",
       },
       {
         id: "c1-12",
@@ -2688,7 +2688,7 @@ export const restaurants: Restaurant[] = [
         description: "Leavened bread topped with butter",
         price: 60,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Butter+Naan",
+        image: "/img1.jpg?height=128&width=128&text=Butter+Naan",
       },
       {
         id: "c1-13",
@@ -2696,7 +2696,7 @@ export const restaurants: Restaurant[] = [
         description: "Deep-fried milk solids soaked in sugar syrup",
         price: 70,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Gulab+Jamun",
+        image: "/img1.jpg?height=128&width=128&text=Gulab+Jamun",
       },
       {
         id: "c1-14",
@@ -2704,7 +2704,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweet or salted yogurt-based drink",
         price: 80,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Lassi",
+        image: "/img1.jpg?height=128&width=128&text=Lassi",
       },
       {
         id: "c1-15",
@@ -2712,7 +2712,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced Indian tea",
         price: 40,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Masala+Chai",
+        image: "/img1.jpg?height=128&width=128&text=Masala+Chai",
       },
       {
         id: "c1-16",
@@ -2720,7 +2720,7 @@ export const restaurants: Restaurant[] = [
         description: "Marinated chicken pieces grilled in tandoor",
         price: 270,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Tikka",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Tikka",
       },
       {
         id: "c1-17",
@@ -2728,7 +2728,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy fish curry in Varhadi style",
         price: 330,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Fish+Curry",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Fish+Curry",
       },
     ],
   },
@@ -2746,9 +2746,9 @@ export const restaurants: Restaurant[] = [
     openingHours: "Mon-Sun: 11:00 AM - 11:00 PM",
     featured: true,
     images: [
-      "/placeholder.svg?height=400&width=600&text=Amantran+Restaurant",
-      "/placeholder.svg?height=400&width=600&text=Vidarbha+Cuisine",
-      "/placeholder.svg?height=400&width=600&text=Family+Dining",
+      "/img3.jpg?height=400&width=600&text=Amantran+Restaurant",
+      "/img4.jpg?height=400&width=600&text=Vidarbha+Cuisine",
+      "/img4.jpg?height=400&width=600&text=Family+Dining",
     ],
     menu: [
       {
@@ -2757,7 +2757,7 @@ export const restaurants: Restaurant[] = [
         description: "Complete meal with regional specialties",
         price: 320,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Vidarbha+Special+Thali",
+        image: "/img1.jpg?height=128&width=128&text=Vidarbha+Special+Thali",
         popular: true,
       },
       {
@@ -2766,7 +2766,7 @@ export const restaurants: Restaurant[] = [
         description: "Chicken in rich tomato and butter gravy",
         price: 320,
         category: "North Indian",
-        image: "/placeholder.svg?height=128&width=128&text=Butter+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Butter+Chicken",
         popular: true,
       },
       {
@@ -2775,7 +2775,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy mutton curry in Varhadi style",
         price: 360,
         category: "Vidarbha",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Mutton",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Mutton",
       },
       {
         id: "c2-4",
@@ -2783,7 +2783,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese in rich tomato and butter gravy",
         price: 260,
         category: "North Indian",
-        image: "/placeholder.svg?height=128&width=128&text=Paneer+Butter+Masala",
+        image: "/img1.jpg?height=128&width=128&text=Paneer+Butter+Masala",
       },
       {
         id: "c2-5",
@@ -2791,7 +2791,7 @@ export const restaurants: Restaurant[] = [
         description: "Gram flour preparation served with millet flatbread",
         price: 150,
         category: "Vidarbha",
-        image: "/placeholder.svg?height=128&width=128&text=Zunka+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Zunka+Bhakri",
       },
       {
         id: "c2-6",
@@ -2799,7 +2799,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with chicken and spices",
         price: 260,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Biryani",
       },
       {
         id: "c2-7",
@@ -2807,7 +2807,7 @@ export const restaurants: Restaurant[] = [
         description: "Leavened bread baked in tandoor",
         price: 50,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Naan",
+        image: "/img1.jpg?height=128&width=128&text=Naan",
       },
       {
         id: "c2-8",
@@ -2815,7 +2815,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional sorghum flatbread",
         price: 30,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Jowar+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Jowar+Bhakri",
       },
       {
         id: "c2-9",
@@ -2823,7 +2823,7 @@ export const restaurants: Restaurant[] = [
         description: "Black lentils cooked with butter and cream",
         price: 220,
         category: "North Indian",
-        image: "/placeholder.svg?height=128&width=128&text=Dal+Makhani",
+        image: "/img1.jpg?height=128&width=128&text=Dal+Makhani",
       },
       {
         id: "c2-10",
@@ -2831,7 +2831,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy chicken curry in Varhadi style",
         price: 300,
         category: "Vidarbha",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Chicken",
       },
       {
         id: "c2-11",
@@ -2839,7 +2839,7 @@ export const restaurants: Restaurant[] = [
         description: "Chicken marinated in yogurt and spices, cooked in tandoor",
         price: 300,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Tandoori+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Tandoori+Chicken",
       },
       {
         id: "c2-12",
@@ -2847,7 +2847,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy green chili and garlic chutney",
         price: 60,
         category: "Sides",
-        image: "/placeholder.svg?height=128&width=128&text=Thecha",
+        image: "/img1.jpg?height=128&width=128&text=Thecha",
       },
       {
         id: "c2-13",
@@ -2855,7 +2855,7 @@ export const restaurants: Restaurant[] = [
         description: "Deep-fried milk solids soaked in sugar syrup",
         price: 70,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Gulab+Jamun",
+        image: "/img1.jpg?height=128&width=128&text=Gulab+Jamun",
       },
       {
         id: "c2-14",
@@ -2863,7 +2863,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweetened strained yogurt with saffron and cardamom",
         price: 90,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Shrikhand",
+        image: "/img1.jpg?height=128&width=128&text=Shrikhand",
       },
       {
         id: "c2-15",
@@ -2871,7 +2871,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweet or salted yogurt-based drink",
         price: 80,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Lassi",
+        image: "/img1.jpg?height=128&width=128&text=Lassi",
       },
       {
         id: "c2-16",
@@ -2879,7 +2879,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced Indian tea",
         price: 40,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Masala+Chai",
+        image: "/img1.jpg?height=128&width=128&text=Masala+Chai",
       },
       {
         id: "c2-17",
@@ -2887,7 +2887,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with mutton and spices",
         price: 280,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Mutton+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Mutton+Biryani",
       },
     ],
   },
@@ -2904,9 +2904,9 @@ export const restaurants: Restaurant[] = [
     phone: "+91 7172 257 890",
     openingHours: "Mon-Sun: 11:00 AM - 10:30 PM",
     images: [
-      "/placeholder.svg?height=400&width=600&text=Rai+Jeera+Restaurant",
-      "/placeholder.svg?height=400&width=600&text=Vidarbha+Cuisine",
-      "/placeholder.svg?height=400&width=600&text=Traditional+Setting",
+      "/img2.jpg?height=400&width=600&text=Rai+Jeera+Restaurant",
+      "/img4.jpg?height=400&width=600&text=Vidarbha+Cuisine",
+      "/img4.jpg?height=400&width=600&text=Traditional+Setting",
     ],
     menu: [
       {
@@ -2915,7 +2915,7 @@ export const restaurants: Restaurant[] = [
         description: "Complete meal with regional specialties",
         price: 320,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Vidarbha+Special+Thali",
+        image: "/img1.jpg?height=128&width=128&text=Vidarbha+Special+Thali",
         popular: true,
       },
       {
@@ -2924,7 +2924,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy mutton curry in Varhadi style",
         price: 360,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Mutton",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Mutton",
         popular: true,
       },
       {
@@ -2933,7 +2933,7 @@ export const restaurants: Restaurant[] = [
         description: "Gram flour preparation served with millet flatbread",
         price: 150,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Zunka+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Zunka+Bhakri",
       },
       {
         id: "c3-4",
@@ -2941,7 +2941,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional sorghum flatbread",
         price: 30,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Jowar+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Jowar+Bhakri",
       },
       {
         id: "c3-5",
@@ -2949,7 +2949,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy green chili and garlic chutney",
         price: 60,
         category: "Sides",
-        image: "/placeholder.svg?height=128&width=128&text=Thecha",
+        image: "/img1.jpg?height=128&width=128&text=Thecha",
       },
       {
         id: "c3-6",
@@ -2957,7 +2957,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy chicken curry in Varhadi style",
         price: 300,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Varhadi+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Varhadi+Chicken",
       },
       {
         id: "c3-7",
@@ -2965,7 +2965,7 @@ export const restaurants: Restaurant[] = [
         description: "Stuffed eggplant in peanut and coconut gravy",
         price: 160,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Bharli+Vangi",
+        image: "/img1.jpg?height=128&width=128&text=Bharli+Vangi",
       },
       {
         id: "c3-8",
@@ -2973,7 +2973,7 @@ export const restaurants: Restaurant[] = [
         description: "Gram flour curry with spices",
         price: 110,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Pithla",
+        image: "/img1.jpg?height=128&width=128&text=Pithla",
       },
       {
         id: "c3-9",
@@ -2981,7 +2981,7 @@ export const restaurants: Restaurant[] = [
         description: "Multi-grain savory pancake served with white butter",
         price: 120,
         category: "Breakfast",
-        image: "/placeholder.svg?height=128&width=128&text=Thalipeeth",
+        image: "/img1.jpg?height=128&width=128&text=Thalipeeth",
       },
       {
         id: "c3-10",
@@ -2989,7 +2989,7 @@ export const restaurants: Restaurant[] = [
         description: "Steamed and fried coriander cakes with spices",
         price: 100,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Kothimbir+Vadi",
+        image: "/img1.jpg?height=128&width=128&text=Kothimbir+Vadi",
       },
       {
         id: "c3-11",
@@ -2997,7 +2997,7 @@ export const restaurants: Restaurant[] = [
         description: "Sago pearls cooked with peanuts and potatoes",
         price: 110,
         category: "Breakfast",
-        image: "/placeholder.svg?height=128&width=128&text=Sabudana+Khichdi",
+        image: "/img1.jpg?height=128&width=128&text=Sabudana+Khichdi",
       },
       {
         id: "c3-12",
@@ -3005,7 +3005,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweet flatbread stuffed with jaggery and lentil mixture",
         price: 80,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Puran+Poli",
+        image: "/img1.jpg?height=128&width=128&text=Puran+Poli",
       },
       {
         id: "c3-13",
@@ -3013,7 +3013,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweetened strained yogurt with saffron and cardamom",
         price: 90,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Shrikhand",
+        image: "/img1.jpg?height=128&width=128&text=Shrikhand",
       },
       {
         id: "c3-14",
@@ -3021,7 +3021,7 @@ export const restaurants: Restaurant[] = [
         description: "Pink kokum and coconut milk digestive",
         price: 70,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Sol+Kadhi",
+        image: "/img1.jpg?height=128&width=128&text=Sol+Kadhi",
       },
       {
         id: "c3-15",
@@ -3029,7 +3029,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced Indian tea",
         price: 40,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Masala+Chai",
+        image: "/img1.jpg?height=128&width=128&text=Masala+Chai",
       },
       {
         id: "c3-16",
@@ -3037,7 +3037,7 @@ export const restaurants: Restaurant[] = [
         description: "Sprouted moth beans curry",
         price: 120,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Matki+Usal",
+        image: "/img1.jpg?height=128&width=128&text=Matki+Usal",
       },
       {
         id: "c3-17",
@@ -3045,7 +3045,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced rice with vegetables and special masala",
         price: 150,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Masale+Bhat",
+        image: "/img1.jpg?height=128&width=128&text=Masale+Bhat",
       },
     ],
   },
@@ -3065,9 +3065,9 @@ export const restaurants: Restaurant[] = [
     openingHours: "Mon-Sun: 12:00 PM - 11:00 PM",
     featured: true,
     images: [
-      "/placeholder.svg?height=400&width=600&text=Sula+Vineyard+Restaurant",
-      "/placeholder.svg?height=400&width=600&text=Wine+Tasting",
-      "/placeholder.svg?height=400&width=600&text=Vineyard+View",
+      "/img5.jpg?height=400&width=600&text=Sula+Vineyard+Restaurant",
+      "/img4.jpg?height=400&width=600&text=Wine+Tasting",
+      "/img4.jpg?height=400&width=600&text=Vineyard+View",
     ],
     menu: [
       {
@@ -3076,7 +3076,7 @@ export const restaurants: Restaurant[] = [
         description: "Selection of Sula wines with cheese and crackers",
         price: 950,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Wine+Tasting+Platter",
+        image: "/img1.jpg?height=128&width=128&text=Wine+Tasting+Platter",
         popular: true,
       },
       {
@@ -3085,7 +3085,7 @@ export const restaurants: Restaurant[] = [
         description: "Assortment of hummus, babaganoush, falafel, and pita",
         price: 650,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Mediterranean+Mezze+Platter",
+        image: "/img1.jpg?height=128&width=128&text=Mediterranean+Mezze+Platter",
         popular: true,
       },
       {
@@ -3094,7 +3094,7 @@ export const restaurants: Restaurant[] = [
         description: "Norwegian salmon with herb butter and vegetables",
         price: 950,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Grilled+Salmon",
+        image: "/img1.jpg?height=128&width=128&text=Grilled+Salmon",
       },
       {
         id: "na1-4",
@@ -3102,7 +3102,7 @@ export const restaurants: Restaurant[] = [
         description: "Creamy Italian rice with wild mushrooms and parmesan",
         price: 650,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Mushroom+Risotto",
+        image: "/img1.jpg?height=128&width=128&text=Mushroom+Risotto",
       },
       {
         id: "na1-5",
@@ -3110,7 +3110,7 @@ export const restaurants: Restaurant[] = [
         description: "Glass of premium Sula red wine",
         price: 450,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Sula+Red+Wine",
+        image: "/img1.jpg?height=128&width=128&text=Sula+Red+Wine",
       },
       {
         id: "na1-6",
@@ -3118,7 +3118,7 @@ export const restaurants: Restaurant[] = [
         description: "Glass of premium Sula white wine",
         price: 450,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Sula+White+Wine",
+        image: "/img1.jpg?height=128&width=128&text=Sula+White+Wine",
       },
       {
         id: "na1-7",
@@ -3126,7 +3126,7 @@ export const restaurants: Restaurant[] = [
         description: "Selection of imported and local cheeses with accompaniments",
         price: 750,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Cheese+Board",
+        image: "/img1.jpg?height=128&width=128&text=Cheese+Board",
       },
       {
         id: "na1-8",
@@ -3134,7 +3134,7 @@ export const restaurants: Restaurant[] = [
         description: "Herb-marinated chicken with mashed potatoes",
         price: 650,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Grilled+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Grilled+Chicken",
       },
       {
         id: "na1-9",
@@ -3142,7 +3142,7 @@ export const restaurants: Restaurant[] = [
         description: "Classic Italian coffee-flavored dessert",
         price: 350,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Tiramisu",
+        image: "/img1.jpg?height=128&width=128&text=Tiramisu",
       },
       {
         id: "na1-10",
@@ -3150,7 +3150,7 @@ export const restaurants: Restaurant[] = [
         description: "Warm chocolate cake with molten center and ice cream",
         price: 380,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Chocolate+Fondant",
+        image: "/img1.jpg?height=128&width=128&text=Chocolate+Fondant",
       },
       {
         id: "na1-11",
@@ -3158,7 +3158,7 @@ export const restaurants: Restaurant[] = [
         description: "Pasta with fresh seasonal vegetables",
         price: 550,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Pasta+Primavera",
+        image: "/img1.jpg?height=128&width=128&text=Pasta+Primavera",
       },
       {
         id: "na1-12",
@@ -3166,7 +3166,7 @@ export const restaurants: Restaurant[] = [
         description: "Grilled lamb chops with rosemary and garlic",
         price: 850,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Lamb+Chops",
+        image: "/img1.jpg?height=128&width=128&text=Lamb+Chops",
       },
       {
         id: "na1-13",
@@ -3174,7 +3174,7 @@ export const restaurants: Restaurant[] = [
         description: "Glass of Sula sparkling wine",
         price: 550,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Sparkling+Wine",
+        image: "/img1.jpg?height=128&width=128&text=Sparkling+Wine",
       },
       {
         id: "na1-14",
@@ -3182,7 +3182,7 @@ export const restaurants: Restaurant[] = [
         description: "Toasted bread topped with tomatoes, basil, and olive oil",
         price: 350,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Bruschetta",
+        image: "/img1.jpg?height=128&width=128&text=Bruschetta",
       },
       {
         id: "na1-15",
@@ -3190,7 +3190,7 @@ export const restaurants: Restaurant[] = [
         description: "Romaine lettuce with Caesar dressing, croutons, and parmesan",
         price: 450,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Caesar+Salad",
+        image: "/img1.jpg?height=128&width=128&text=Caesar+Salad",
       },
       {
         id: "na1-16",
@@ -3198,7 +3198,7 @@ export const restaurants: Restaurant[] = [
         description: "Italian cream dessert with berry compote",
         price: 320,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Panna+Cotta",
+        image: "/img1.jpg?height=128&width=128&text=Panna+Cotta",
       },
       {
         id: "na1-17",
@@ -3206,7 +3206,7 @@ export const restaurants: Restaurant[] = [
         description: "Thin crust pizza with premium toppings",
         price: 650,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Vineyard+Special+Pizza",
+        image: "/img1.jpg?height=128&width=128&text=Vineyard+Special+Pizza",
       },
     ],
   },
@@ -3226,9 +3226,9 @@ export const restaurants: Restaurant[] = [
     openingHours: "Mon-Sun: 11:00 AM - 11:00 PM",
     featured: true,
     images: [
-      "/placeholder.svg?height=400&width=600&text=Tara+Pan+Palace",
-      "/placeholder.svg?height=400&width=600&text=Naan+Qalia",
-      "/placeholder.svg?height=400&width=600&text=Restaurant+Interior",
+      "/img3.jpg?height=400&width=600&text=Tara+Pan+Palace",
+      "/img4.jpg?height=400&width=600&text=Naan+Qalia",
+      "/img4.jpg?height=400&width=600&text=Restaurant+Interior",
     ],
     menu: [
       {
@@ -3237,7 +3237,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional Aurangabadi mutton curry with bread",
         price: 380,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Naan+Qalia",
+        image: "/img1.jpg?height=128&width=128&text=Naan+Qalia",
         popular: true,
       },
       {
@@ -3246,7 +3246,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy mutton curry in Marathwada style",
         price: 350,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Marathwada+Mutton",
+        image: "/img1.jpg?height=128&width=128&text=Marathwada+Mutton",
         popular: true,
       },
       {
@@ -3255,7 +3255,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with meat and spices",
         price: 280,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Biryani",
       },
       {
         id: "s1-4",
@@ -3263,7 +3263,7 @@ export const restaurants: Restaurant[] = [
         description: "Traditional sorghum flatbread",
         price: 30,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Jowar+Bhakri",
+        image: "/img1.jpg?height=128&width=128&text=Jowar+Bhakri",
       },
       {
         id: "s1-5",
@@ -3271,7 +3271,7 @@ export const restaurants: Restaurant[] = [
         description: "Gram flour curry with spices",
         price: 120,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Pithla",
+        image: "/img1.jpg?height=128&width=128&text=Pithla",
       },
       {
         id: "s1-6",
@@ -3279,7 +3279,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy green chili and garlic chutney",
         price: 60,
         category: "Sides",
-        image: "/placeholder.svg?height=128&width=128&text=Thecha",
+        image: "/img1.jpg?height=128&width=128&text=Thecha",
       },
       {
         id: "s1-7",
@@ -3287,7 +3287,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with chicken and spices",
         price: 260,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Biryani",
       },
       {
         id: "s1-8",
@@ -3295,7 +3295,7 @@ export const restaurants: Restaurant[] = [
         description: "Fragrant rice with mutton and spices",
         price: 290,
         category: "Rice",
-        image: "/placeholder.svg?height=128&width=128&text=Mutton+Biryani",
+        image: "/img1.jpg?height=128&width=128&text=Mutton+Biryani",
       },
       {
         id: "s1-9",
@@ -3303,7 +3303,7 @@ export const restaurants: Restaurant[] = [
         description: "Cottage cheese in rich tomato and butter gravy",
         price: 270,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Paneer+Butter+Masala",
+        image: "/img1.jpg?height=128&width=128&text=Paneer+Butter+Masala",
       },
       {
         id: "s1-10",
@@ -3311,7 +3311,7 @@ export const restaurants: Restaurant[] = [
         description: "Yellow lentils tempered with spices",
         price: 150,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Dal+Tadka",
+        image: "/img1.jpg?height=128&width=128&text=Dal+Tadka",
       },
       {
         id: "s1-11",
@@ -3319,7 +3319,7 @@ export const restaurants: Restaurant[] = [
         description: "Leavened bread topped with butter",
         price: 60,
         category: "Breads",
-        image: "/placeholder.svg?height=128&width=128&text=Butter+Naan",
+        image: "/img1.jpg?height=128&width=128&text=Butter+Naan",
       },
       {
         id: "s1-12",
@@ -3327,7 +3327,7 @@ export const restaurants: Restaurant[] = [
         description: "Deep-fried milk solids soaked in sugar syrup",
         price: 70,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Gulab+Jamun",
+        image: "/img1.jpg?height=128&width=128&text=Gulab+Jamun",
       },
       {
         id: "s1-13",
@@ -3335,7 +3335,7 @@ export const restaurants: Restaurant[] = [
         description: "Sweet or salted yogurt-based drink",
         price: 80,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Lassi",
+        image: "/img1.jpg?height=128&width=128&text=Lassi",
       },
       {
         id: "s1-14",
@@ -3343,7 +3343,7 @@ export const restaurants: Restaurant[] = [
         description: "Spiced Indian tea",
         price: 40,
         category: "Beverages",
-        image: "/placeholder.svg?height=128&width=128&text=Masala+Chai",
+        image: "/img1.jpg?height=128&width=128&text=Masala+Chai",
       },
       {
         id: "s1-15",
@@ -3351,7 +3351,7 @@ export const restaurants: Restaurant[] = [
         description: "Marinated chicken pieces grilled in tandoor",
         price: 280,
         category: "Starters",
-        image: "/placeholder.svg?height=128&width=128&text=Chicken+Tikka",
+        image: "/img1.jpg?height=128&width=128&text=Chicken+Tikka",
       },
       {
         id: "s1-16",
@@ -3359,7 +3359,7 @@ export const restaurants: Restaurant[] = [
         description: "Bread pudding with condensed milk and nuts",
         price: 150,
         category: "Desserts",
-        image: "/placeholder.svg?height=128&width=128&text=Shahi+Tukda",
+        image: "/img1.jpg?height=128&width=128&text=Shahi+Tukda",
       },
       {
         id: "s1-17",
@@ -3367,7 +3367,7 @@ export const restaurants: Restaurant[] = [
         description: "Spicy chicken curry in Marathwada style",
         price: 320,
         category: "Main Course",
-        image: "/placeholder.svg?height=128&width=128&text=Marathwadi+Chicken",
+        image: "/img1.jpg?height=128&width=128&text=Marathwadi+Chicken",
       },
     ],
   },

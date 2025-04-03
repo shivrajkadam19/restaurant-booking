@@ -11,7 +11,7 @@ import axios from "axios";
 const BASE_URL = "http://localhost:3000";
 
 type User = {
-  id: string;
+  _id: string;
   name: string;
   email: string;
   avatar?: string;
@@ -63,7 +63,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         console.log("responce", success.data.user);
         const data = success.data.user;
         setUser({
-          id: data._id,
+          _id: data._id,
           name: data.name,
           email: data.email,
           avatar: "/images/placeholder.png",
@@ -104,7 +104,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         console.log("responce", success.data.user);
         const data = success.data.user;
         setUser({
-          id: data._id,
+          _id: data._id,
           name: data.name,
           email: data.email,
           avatar: "/images/placeholder.png",

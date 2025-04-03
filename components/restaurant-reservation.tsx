@@ -9,6 +9,8 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import { format } from "date-fns"
+import { useAuth } from "@/context/auth-context"
+import { useRouter } from "next/navigation"
 
 interface RestaurantReservationProps {
   restaurant: Restaurant
@@ -20,15 +22,55 @@ export function RestaurantReservation({ restaurant }: RestaurantReservationProps
   const [guests, setGuests] = useState("2")
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSuccess, setIsSuccess] = useState(false)
+  const { user} = useAuth();
+  const router = useRouter()
 
-  const handleSubmit = () => {
-    setIsSubmitting(true)
-    // Simulate API call
-    setTimeout(() => {
-      setIsSubmitting(false)
-      setIsSuccess(true)
-    }, 1500)
-  }
+  console.log(user)
+  const handleSubmit = async () => {
+    if (!user) {
+      alert("Please Login first");
+      router.push("/sign-in");
+      return;
+    }
+
+    if (!date || !time || !guests) return;
+
+    setIsSubmitting(true);
+    
+    // Debugging: Log the request data before sending
+    console.log("Sending booking request:", {
+        userId: user._id,
+        restaurantName: restaurant.name,
+        date,
+        time,
+        guests,
+    });
+
+    const response = await fetch("/api/booking", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+            userId: user._id,
+            restaurantName: restaurant.name,
+            date,
+            time,
+            guests,
+        }),
+    });
+
+    if (response.ok) {
+        console.log("Booking response:", await response.json());
+        setIsSuccess(true);
+    } else {
+        const errorResponse = await response.json();
+        console.error("Failed to reserve table:", errorResponse);
+        alert("Failed to reserve table: " + errorResponse.error);
+    }
+
+    setIsSubmitting(false);
+};
+
+
 
   const timeSlots = ["17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00", "20:30", "21:00", "21:30"]
 

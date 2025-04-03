@@ -1,5 +1,4 @@
 import mongoose, { Document, Schema, Model } from "mongoose";
-import { UserDocument } from "./user"; // Import User model for reference
 
 export interface Booking extends Document {
   user: mongoose.Types.ObjectId;
@@ -38,7 +37,6 @@ const bookingSchema = new Schema<Booking>(
   }
 );
 
-const BookingModel: Model<Booking> =
-  mongoose.models?.Booking || mongoose.model<Booking>("Booking", bookingSchema);
+const BookingModel: Model<Booking> = mongoose.models.Booking || mongoose.model<Booking>("Booking", bookingSchema);
 
 export default BookingModel;

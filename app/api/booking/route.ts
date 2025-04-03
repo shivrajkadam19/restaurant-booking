@@ -34,3 +34,24 @@ export async function POST(req: NextRequest) {
         return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
     }
 }
+
+
+export async function GET(req: NextRequest) {
+    try {
+        await connectToMongoDB();
+        const { searchParams } = new URL(req.url);
+        const userId = searchParams.get("userId");
+
+        if (!userId) {
+            return NextResponse.json({ error: "User ID is required." }, { status: 400 });
+        }
+
+        const orders = await BookingModel.find({ user: new mongoose.Types.ObjectId(userId) }).sort({ date: -1 });
+
+        console.log(NextResponse.json({ orders }, { status: 200 }));
+        return NextResponse.json({ orders }, { status: 200 });
+    } catch (error) {
+        console.error("Error fetching orders:", error);
+        return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
+    }
+}

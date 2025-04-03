@@ -70,6 +70,7 @@ const offers = [
 ]
 
 export default function ProfilePage() {
+
   const searchParams = useSearchParams()
   const tabParam = searchParams.get("tab")
   const router = useRouter()
@@ -82,6 +83,16 @@ export default function ProfilePage() {
   const [email, setEmail] = useState("")
   const [phone, setPhone] = useState("")
   const [address, setAddress] = useState("")
+  const [orders, setOrders] = useState([]);
+
+  useEffect(() => {
+    if (user) {
+      fetch(`/api/booking?userId=${user._id}`)
+        .then((res) => res.json())
+        .then((data) => setOrders(data.orders))
+        .catch((err) => console.error("Error fetching orders:", err));
+    }
+  }, [user]);
 
   useEffect(() => {
     if (!user) {
@@ -208,7 +219,7 @@ export default function ProfilePage() {
               </Card>
             </TabsContent>
 
-            <TabsContent value="orders">
+            {/* <TabsContent value="orders">
               <Card>
                 <CardHeader>
                   <CardTitle>Order History</CardTitle>
@@ -244,8 +255,40 @@ export default function ProfilePage() {
                   </div>
                 </CardContent>
               </Card>
-            </TabsContent>
+            </TabsContent> */}
 
+            <TabsContent value="orders">
+              <Card>
+                <CardHeader>
+                  <CardTitle>Order History</CardTitle>
+                  <CardDescription>View your past orders and reservations.</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-6">
+                    {orders.length > 0 ? (
+                      orders.map((order) => (
+                        <div key={order._id} className="border rounded-lg p-4">
+                          <div className="flex justify-between items-start">
+                            <div>
+                              <h3 className="font-medium">{order.restaurantName}</h3>
+                              <p className="text-sm text-muted-foreground">
+                                {new Date(order.date).toLocaleDateString()} at {order.time}
+                              </p>
+                            </div>
+                            <div className="text-right">
+                              <span className="text-sm font-medium">Guests: {order.guests}</span>
+                              {/* <p className="text-xs text-muted-foreground">ID: {order._id}</p> */}
+                            </div>
+                          </div>
+                        </div>
+                      ))
+                    ) : (
+                      <p className="text-sm text-muted-foreground">No orders found.</p>
+                    )}
+                  </div>
+                </CardContent>
+              </Card>
+            </TabsContent>
             <TabsContent value="offers">
               <Card>
                 <CardHeader>
